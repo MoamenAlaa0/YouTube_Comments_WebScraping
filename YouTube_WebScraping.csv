@@ -1,0 +1,2363 @@
+comments
+"Hello everyone, find the updated version of this tutorial here: https://www.youtube.com/watch?v=rlR0f4zZKvc&list=PL8eNk_zTBST-SaABhXwBFbKvvA0tlRSRV&index=3"
+"Table of Contents:
+0:00   -   Introduction
+1:28   -   Setting up Anaconda
+3:00   -   Installing Beautiful Soup
+3:43   -   Setting up urllib
+6:07   -   Retrieving the Web Page
+10:47 -   Evaluating Web Page
+11:27 -   Converting Listings into Line Items 
+16:13 -   Using jsbeautiful 
+16:31 -   Reading Raw HTML for Items to Scrape
+18:34 -   Building the Scraper
+22:11 -   Using the ""findAll"" Function
+27:26 -   Testing the Scraper
+29:07 -   Creating the .csv File
+32:18 -   End Result"
+"This was by far the best introduction to web scraping I've found online. Clear, concise, and easy to digest. Thank YOU!"
+"It's weird to think about it like that, but this video started my whole Python learning back in 2017 and I am SO SO SO much thankful for it."
+"MINOR SUGGESTION
+As of 10/03/2019, If you are following along this tutorial. ""container.div"" won't give you the div with the ""item-info"" class. Instead it will give you the div with the ""item-badges"" class. This is because the latter occurs before the former. When you access any tag with the dot(.) operator, it will just return the first instance of that tag. I had a problem following this along until i figured this out. To solve this just use the ""find()"" method to find exactly the div which contains the information that you want. For e.g.   divWithInfo = containers[0].find(""div"",""item-info"")"
+"Thank you for a great video. For someone a newbie, this was a bit confusing, since you need to add paths for both python and pip separately in order to run them from the command line. :)"
+"If you had some prior experiences with web crawling, this video can makes your crawling skills into a whole new level. Allows you to crawl website containing complicated info about multiple items into a very organized dataset. The various tools introduced in the video are also fantastically helpful as well. A BIG THANK YOU"
+"This was really good content, definitely the best intro to web scraping I've seen. You don't go through it as though you're reading from the documentation, there's more of a flow."
+Really great video! Only just starting with python and this was very helpful! Thanks 
+Thanks. I have a basic understanding of python and html and I found this tutorial very easy to follow. You do a great job of clearly explaining things in the code which is what I need at my current skill level. Much appreciated.
+"Absolute champion, quite possibly the best code tutorial I've ever watched. Oh the possibilities! Thank you :)"
+"As of Nov 2020, I went through the whole thing without any issue!  I used a different product name, but everything worked so well!   Everything worked so perfectly! I learned so much from this video!  this is awesome!!!!  Thank you!!!!"
+"That was great. Great work. I'm a beginner in Python, so it was a little bit advanced for me. If I could give one tip, it would be that as you get further and further into the details of the script, it's rather easy to lose the plot, that is, what we're doing, what we've done, and what we still have to do, so it wouldn't be any harm at certain stages to recap for the audience, saying where we are and what we did and still have to do. Just an audience thing to keep people with you. Apart from that, excellent tutorial."
+"32:30, I started cheesing at how awesome the end result of this whole project was.  Definitely inspiring - thank you for the excellent guide!"
+"Truly enjoyed your simple step by step explanation on why each command or function is needed, and what it does.  Your Python knowledge and skills are evident, as you  are able to provide immediate solutions to errors and or challenges to the problem you are attempting to solve.  Followed along with the tools and enjoyed the session. Thank you."
+"Great content! I've watched dozens (hundreds?) of coding vids on youtube and I normally up the speed and skip around because they tend to go really slowly. You did a really good job of moving quickly while also covering most of the little details that beginners would get stuck wondering, like pressing ""up"" in the console to repeat your last command.
+
+My only constructive feedback is that the font was a little bit too big. While I would much rather it be too big than too small, there's a happy medium somewhere in the middle a few sized down from what you were displaying, mostly just when displaying the html.
+
+Again, great vid and I'll definitely check out some more of your stuff!"
+"Thank you so much for the videos Data Science Dojo! I'm a data analyst working in Hungary, and I received a small scraping task to do in the last few days. I had a previous notion of how requests and BeautifulSoup worked, however, your video brought me from zero to hero to finish the task. Keep the good work!"
+"Two years into a web program and a year working in the field and never bothered to learn how to do this. Great video, I followed along 5 years later in 2022 with Python 3.7.8 and it still works."
+Fantastic tutorial! gave me 95% of what I needed for my first screen scraping project.
+"THANK YOU SO MUCH! 
+
+Had to put that in all caps. The best comprehensive web scraping  tutorial I've come across. Thanks again."
+"THIS IS AMAZING!!! Everything was very well-explained and instructed, I managed to get my first webscrape off an E-commerce site! Thanks so much, you have a loyal subscriber in me!
+
+Perhaps you could cover using time sleeps to avoid getting blacklisted by the websites we are scraping? And also how to scrape multiple pages in one go?"
+"Very easy to understand and to follow. Good explanation, with good content. Thank you for sharing your knowledge."
+"Fantastic video dude, much more helpful than others I've seen on Youtube"
+Thanks for this... it's amazing. You're a natural teacher. Is there any chance you could make a video about how to scrape a table and output the data into a spreadsheet? I'm having a hard time with this and there are really no videos out there as good as yours.
+"This tutorial is everything I searched for. Thank you for covering it that broadly and including several ways to get differenty kinds of information, both the constant and the varying ones. That's really something that sets this video apart from all the other tutorials.
+
+Now that I've come quite far with my code, I've stumbled upon one exception and maybe you can help me here:
+
+The code snippets that I try to collect from my file with ""find_all"" (in your case the containers) sometimes contain line breaks. This leads to the function making one entry per line and thus splitting a text where it should stay together and creating incomplete entries.
+Do you have an idea how I can prevent this from happening? Since the function isn't a string, I can't just append "".replace"" or something so what would be the best way to solve this?"
+"I can't thank you enough for this tutorial. Im currently working in course project of creating a database extracting data from the web, and this tutorial was a big insight for me."
+"Coming from an R user, this is a very well done introductory tutorial into web scraping in Python. I like the real world example with Newegg and troubleshooting along the way."
+Great video!!!! Really useful. It would be Awesome if you could make an updated one for 2019. A lot of people would appreciate that(trust me)
+This is so helpful! The video has been really well put together and was answering my questions as they came to me. I'll probably be watching this a few more times as I practice! Thank you!!!
+"This is the best web scraping tutorial that I’ve found. I’ve been frustrated for hours trying to use other resources. Thank you for making this, your explanations are thorough and great!"
+Great video! You made everything crystal clear and understandable
+"This is REALLY good content.  I know I'm not speaking for myself, but I would love to see a video of you doing this same thing but having it run once an hour and have it send an email if there is a change."
+This is very well explained and I enjoyed every second of it ! please do more ^^
+"Awestruck! It's amazingly simple to follow along! Thank you, sir, for adding to the community of self-learners!"
+"Love this tutorial
+You explained it so well that it's really easy to follow
+Thanks"
+Awesome tutorial!!! I don't even know any python and I was able to follow just fine. Really excited to dive into my first web scraping project :) Thanks!
+"This was genuinely an amazing video. Thanks very much. Very, very useful.
+
+Any chance you could do another, this time on web scraping with cookies?
+(I.e. with login details, age checks, locations, etc.)"
+"One of the best teacher I have come across Youtube. Web Scraping explained so well that even a layman can follow and understand the basic concepts. I wish, in life I had a teacher/mentor/friend like the one teaching in this video."
+A BIG BIG THANK YOU: the most understable tutorial I've ever seen on how to scrape a web page (and I have visionned like 100 of them)
+Great and clear tutorial for beginners. Cheers!
+This material is just amazing. Thank you! Have you considered making an intro to Web Scraping using R?
+I am just starting web scrapping and I can honestly say that this video clearly explained everything. I watched this at 1.5 speed and it made sense. I would love more videos like this. I loved how you made it generic so it can apply to more than one website!
+"Hey there! this guide really helped me to create a tailored scraper for a pilot project. Even though I am at the very beginning stage of learning Python, I could manage to create the entire script, and even learned while the process. Amazing, really appreciate this!"
+"Thanks for the video, really enjoyed it! I have one remark though.
+
+Don't you think that you could have used find() instead of find_all() inside the loop. 
+I think that find_all() might be redundant in this case, because you are extracting only one tag.
+
+I might be wrong though, please correct me if I am!"
+Your presentation and explanation are awesome!  You have opened my eyes to the uses of Python and Beautiful Soup.
+"I cant believe I actually sat through 33 minutes learning web scrapping, something completely new to me. I was looking for a shortcut but your tutorial was just perfect! :D Thanks for this.!"
+"I was able to make a program for my client i never thought was possible. I got paid real money for this.
+Blessings so much learned, this is like magic"
+"DUDE! High Quality Content!! You are very good at walking through the logical steps for breaking down a page! Other tutorials are great but are always geared toward the specific task at hand. With this it felt like I also learned how to tackle a page! 
+
+This helped a bunch!"
+"Amazing stuff man. Very well explained. Do a tutorial on parsing xml and text files in python? That should be really helpful too, especially where we have to analyze log files for instance"
+"As someone self learning Python (my first programming language) with a web scraping script in mind, this was great!"
+"Very high-quality tutorial.
+How to set up everything before running any code is very nice to include,  and timestamping it so people who already know it can quickly skip is just much appreciated.
+Keeping the tutorial example script and diverse is very welcome.
+Writing it from scratch just makes sooo useful for remembering what was where.
+
+I wish other people made tutorials like this... Timestamping is so useful when you just want to look-up that one thing and don't really remember when it appeared."
+"As a newbie I can tell this helped a lot, thanks mate. Excellent job."
+"Thank you very much for this video!
+
+I hope you do a second one on this subject. I'd like to know how to scrape several pages as you mentioned in the end of video. This was just what I was hoping for. Thanks!"
+"Super tutorial, you go straight to the point ! "
+"Great stuff.  I like python but I'm wondering about doing scrapping inside a PHP app like laravel,  are there any good packages?  I've heard of goutte but it would be cool to see a PHP based scraper that scrapes after X amount of time."
+"Very helpful. Thank you. I followed step by step, and used another webpage for the scrapping but somehow the structure of that webpage did not allow me to find the correct html tags to use for extraction. Will continue to try."
+"Amazing video, very clear and easy to follow. Best intro ive come across"
+"Amazing content, very very helpful. Thank a lot for taking the time in doing this."
+"wow this was great! I am completely new to this and still could follow perfectly fine and loved the explanations of everything. Would love to know how to run this script every day automatically and send results to phone or create alerts for changes and send those to a phone. Again, awesome job!"
+This was a very cool (and practical) video.  Thanks for publishing!
+"wow even almost 3 years later this video helped me so much and helped me to make a program that picks a random steam game, this was so hard, but i figured it out, big props to you and this video <3"
+Fantastic! Thank you very much! Very clear and detailed tutorial!
+Awesome tutorial man! exactly what I was looking for
+"You are the most concise teacher of python I have come across 
+Thanks 
+I will definitely give your other videos a view"
+"Hello, thanks or sharing this great tutorial. I tried scraping following this tutorial and it was a great success. However I am stuck in another script where i need to grab similar posts and every post contained inside in each single list or <li>. The problem is the class name inside this <li> contains a post number which varies from <li> to <li>. The list looks like this::  <li class="" post post-81993 type-post status-publish format-standard has-post-thumbnail hentry category-crime""> You can see the number there and each list that contains the post i need to grab contains a different number. So apparently if i write that class to grab that post it will only grab one single post, not all of them. Any kind of help would be greatly appreciated. Thanks!"
+"Loved this video, clear and straight to the point, was able to make my first web scraping program"
+"The man, the myth, the legend.
+
+You have no idea how much stress and lost time you have prevented. THANK YOU!"
+"I thought web scraping was hard until I found your video. Huge thanks man, you saved so much time for me!"
+"Thank you very much for this, very informative, would be very interested in learning combining this with the loop to go through the pages, or maybe aggregating data from more than one site."
+"For people in some countries the standard delimiter in CSV-files is a semicolon, so the entries will have to be separated by a semicolon if you dont want to have to change your system settings. just a FYI some of you might find useful"
+"Insanely easy to understand, comfortable to listen. Thank you a lot! :)"
+Please make more of this! This is the first tutorial I saw about web scraping and I understand totally. Thanks.
+I saw this video and then successfully wrote the entire code without looking at the video. Not even once. This is because i understood every line of it. Thank you man. Your explanation is very beginner friendly.
+"This is great! Would love to see how to handle edge cases. Also, how would you scrape the data from each product page, i.e. follow the link and store the description, tech specs,"
+Great job. I liked how you explain everything really well.
+Thanks a lot! This video was extremely helpful and straightforward.
+"I really liked the tone, rythm and clarity of this tutorial! I‘m not a total beginner with python anymore and so was able to listen and (mostly?) understand while preparing lunch for my kids. (I‘ll rewatch to try and do it later)"
+Awesome video man... Make these kinda practical videos with live coding.... Amazing stuff.. loved it!
+Nice! I was wondering if you could do a page monitor where it tells you exactly where the website has changed?
+"You made it so easy to understand everything. Thank you so much, We need teachers like you really. Appreciate your quality of work. Keep Going and teaching and we will keep learning :D"
+"Hello, awesome tutorial! But when I make the .csv file the data appears in one column separated by commas, not in individual columns. I've checked all the code and is exactly the same as the video code."
+"Very concise and useful video thank you. 
+
+For my specific application, when I click on my product it takes my to a page that contains additional information that I would also like to scrap. Is there any way of incorperating this into the code somehow?
+
+Thanks."
+Easy to follow and understand. Very nice tutorial. Thank you very much!
+Unbelievably helpful! Thank you so much!
+"I learned SOOOO MUCH from this video, you are the BEST!!!!!!! Your explanation was super simple and just spot on, thank you SO MUCH!!!!!!!!"
+I love this type of lesson. Building useful software with real world applications.
+Great video. ..very easy to follow. hope you do more of that kind. Thanks.
+Thanks a lot for this tutorial... Having a bit of difficulty with going through pages but I will get it eventually 
+You could also use Visual Studio and add the Python module from the Visual Studio Installer.  This gives you the benefit of intellisense and a ton of other features of Visual Studio live having an interactive python window below your editor window.  It also makes it easy to search for packages and to install or remove them.
+"Great Video.Thank you :D
+However,i have one doubt.
+Are comma seperated values automatically stored in different columns in a csv file?
+Please help."
+"Thank you very much! The video was very clear to understand, it helped me to progress in learning python."
+It was really helpful to me. I was confused by some other videos but this one was great. Thank you
+"Hi Dojo, Really nice video. I have one doubt. The recent eCommerce sites done have class items constant, they have alpha numeric values like   class=""_3Hjcsab"" how do you scrape when the site keeps on changing?"
+Great video! Thank you for sparing the time and explaining in such a straight forward delivery.
+This is a really good lesson into web scraping. Thank you for demonstrating it.
+You explained this amazingly. Hopefully can use python to its fullest
+"Never actually used python just before just learned basic syntax. Had a few obstacles, but luckily we have stack overflow. I can't believe that I am saying this but the tutorial was better than the one by Brad Traversey.
+
+
+Keep it up.
+
+
+Can you make a tutorial about django rest api?"
+This is awesome. Thanks for the clearcut explanation and demonstration
+"This was fast, precise and beautiful! By saying beautiful I didn't mean to state the obvious :) Thanks"
+This was well done. Thanks for the demonstration along with the explanation!
+"Maybe it's better to use find() instead of findAll() to get product's name? So code will be less complex, like this : 
+title = container.find(""a"",{""class"" : ""item-title""}).text"
+"You, sir, have beautifully explained the workflow of web scrapping. Thank you so much."
+"Great tutorial! I'm having trouble exporting to the csv though! When I print, my loop is working correctly and scraping all of the data that I want. But, when I export, I only get the data of one product... none of the other 50. When I enter my web scrape file name into the command prompt and I execute the code, I see all of the product data that I'm attempting to pull flash on my screen, yet only the last product appears in my csv. Any Ideas what's going on?"
+"You are a blessing seriously! The first tutorial that actually made sense from start to finish. I was able to understand so much from this! Please Please Please Please upload more videos on Python Web Scraping with BeautifulSoup. 
+
+
+
+Thank you again for this blessing!"
+"Everyone learns in a different way, and absorbs information through different methods!  This informal, laid back 'talk & walkthrough' (almost like sitting together with a mate) fits my style sooo much!! for me probably the best python lesson ever!! Will be looking for many more - thanks :P legendary !!"
+"Mate, this is just perfect! I learned so much by doing this with you. Now I'm ready to tackle other websites!!! You're a legend!"
+"UPDATE/SUGGESTION 
+The findALL function has been renamed to the find_all function in Bs4 version 4.9.3"
+"Very good video!  great explanation of all the steps involved, I'll agree that this is best scraping video i've found .  Thanks!"
+"Awesome video, thank you so much! I've just got one question. What is the difference between importing urllib.request and importing requests. I've noticed that if you import the second one, you can use thing like .get(url) , which does the same thing as ureq(url), right? If so, is one better to use than the other?"
+"Very useful and to the point, thank you!"
+This was perfect for me--exactly what I needed. Thanks so much!
+This is one of the only clear|fun python tutorials out there. Congrats
+"enjoyed, data science ! Need more like this one"
+Wow. Can't believe I just learned webscraping with beautiful soup in 30 mins. Great video. Fast pace and talk but that's what pause and rewind is for.
+"This is the best tutoring for webscraping... In just one vedio I learned so much and understood very nicely. It was my first time and I didn't know even a inch but I just stuck to this one ,not even for once opened any other video.
+It's damn amazing. Thank you for making it and making it so well."
+"Awesome video, it cleared my concepts of Bs4 beautifully...Thanks a lot for making easier for new learners like me."
+Thank you for this!  It's cool and important (to me) to see what one would actually do with python.
+"Amazing tutorial, however, I'm having one issue, when I save the csv file it looks good in excel but when I try to create a graph using matplotlib and pandas, it will give me a blank graph. I'm assuming this is data type issue as when I manually change the data to numeric values in excel it does work. Would you suggest any solution for this?"
+"This has been so useful. Thanks so much. What I need to know now, is how I can get the scraper to continue working when there's a 'Load More' button, which doesn't take you to another page. If anyone knows anything about this please let me know."
+"Very clear.  One thing, you might consider a modern all in one dev tool and environment like PyCharm, or at least VisStudio. It will save you a lot of time vs Sublime, site tools, CMI, etc."
+"Hi, thanks for the video! How do you get to the second div tag in ""container""?"
+"This is awesome. Thanks, man. I really enjoy your style of teaching."
+This is very well explained. I like this as a beginners guide!
+that was awesome man - so much appreciation for things like this! you could throw in adding the csv into a database - and then throw in a query on the best card!
+"Awesome video: right pace, great content, very useful tricks...!"
+"It is so cool but as a newbie scrapper it took me a while to get used to some new terms and difficulties. Thanks a lot, Bless you!"
+"Hello, at 20:14 , the <div> tag (in my case) jumps to <div> tag inside <a> tag. How to choose which tag we want to grab if there is more than 1 tag with same name"
+"Great video, I think I'm going to like web-scraping.
+You seem to have covered all the bases, except how would you include the product image?"
+Excellent video man! Just keep the terminal fonts smaller. That much large fonts distorts the format and hard to keep track.
+"Really great video. did manage to scrape a site well from how you explained it. good approach you took. one question i have about scraping the PRICE. in my situation they don't seem to have consistent html class for price sometimes its ""price"" then in some products it might show ""rrp-price"" then "" now-price"". how can i do this without having to load it into 3 different variables. so i can pass the actual sale price no matter if its in a now-price class or not. do i need to use IF STATEMENTS here? if so i can work out how"
+This is one of the most useful Web Scrapping videos I have ever come across. I could learn it from scratch. Thanks.
+This is the first tutorial on this that actually makes sense. THANK YOU. You earned a subscriber.
+"Awesome tutorial, Please add how to scrap multiple pages :)"
+"The best tutorial on web scrapping, I've ever seen! Great work!"
+"Hi...thanks for the excellent tutorial. Really appreciate the way you have taken time to break down and explain each line of code.
+I am trying to scrape Linkedin, in order to sort my connections by the number of likes/comments their posts garner. This is to ensure that I am latching on to the right posts.
+Is this something possible to do with Python - if yes, could you help me with contouring the code or direct me to a source that can?
+Thanks"
+You are a great teacher I believe I was not much not into data Science  but after watching your video it made it simple and easy. Thank you I took 100% from it. :) requesting more videos from you..
+"Awesome!  this was pretty valid in 2020,    
+I had to change findALL()  to find_all(""div"", class_=""item-container"")"
+Finally a good vid explaining how to data mining/scraping. I am still learning but very excited about it. Once you master this you can mine anything. Thanks for the vid mate.
+"Looks like they added another div at the very beginning of each item-container. The brand name can now be extracted with a little more effort-
+brand_container = x.findAll(""div"",{""class"":""item-info""})
+print(brand_container[0].div.a.img[""title""])"
+Absolutely brilliant! Thanks so much!
+Wow great video.Can you make a video on srapping data from multiple pages
+"This was great, very easy to follow and fun to learn. THank you!"
+"That was great and based on that fact, Ive sub'd and ""notified"". Thanks
+
+Im just starting out in data science (very later starter but really fascinates me) and all this is good knowledge. Id like to see the same concept but with a API call to a url and how to break down the return items and display them. 
+
+Will go through your other videos. 
+
+Thanks again"
+"dude you are amazing at teaching and at coding, I've been wanting to do this for so long... now I can, thank you really much"
+I dont know much about coding but the way you explained this made perfect sense. I hope to learn a lot from your channel.
+Very good and easy to understand. Thanks :)
+This is actually the coolest thing I've seen in my entire life. Wow. Thank you so much I love you man.
+Best tutorial I've seen. Thank you for saving me so much time!
+"Thanks heaps, your explanation was perfect and the tutorial was very informative! :)"
+"I have watched all the web scraping videos on YouTube but this one is the top, I learned a lot. Thank you."
+Fan-freaking-tastic tutorial. Finally got this working the way I want it to. Thank you!
+Awesome tutorial man! I'm new to web scraping and I must say boy this is worth the watch!
+16:04 Command for it on windows is  CTRL + SHIFT + P :)
+excellent tutor and very clear description...please do more
+"Great video! I'm a beginner and I really understood it all!
+Just subscribed to your channel.
+
+I just have a little doubt.
+After running the code, this message appears:
+Traceback (most recent call last):
+  File ""C:\Users\amato\Downloads\webcrawler.py"", line 19, in <module>
+    brand = container.div.div.a.img[""title""]
+TypeError: 'NoneType' object is not subscriptable
+
+I wonder if someone may help me!"
+Thank you for this video. Very interesting! I have 1 question though. When I open my created CSV file. All the data is shown in 1 column. While it is seperated in 3 column in yours. I have used the exact same code as you have. How do I divide the headers with the according data in different columns? I use Python 3.6.5. Thank you! I am looking forward to your answer.
+The explanation was super. Also thank you you for showing all those handy tools. Keep it up!
+"Thank you so much, you're an excellent teacher!"
+could you upload the script?
+Thank you so much for this! ... I actually managed to create a scrapper to scrape all of the containers and output them to a csv based upon your tutorial... I would however like to know if there is an easy way to continue onward to the next page. I currently am changing the number in the reques url but i know there's a way that it can be automated ... is this something you can provide the code for? thank you once again...
+"When I watched this tutorial, it seemed easy to scrap until I stuck a thousand times while actually scrapping a webpage. Happy Coding for dummies lollll"
+Awesome and to the point. Thank you so much
+This is the best web scraping tutorial I've ever seen! Thank you so much!
+"What just I saw! 
+This is really .. really helpful. 
+You deserve a big THANKS! 
+You present everything not just fine but out of the box!
+THANKS AGAIN...!!!"
+"Thanks for the great video, I was able to scrape data with nearly no experience in coding. I only have one problem: I'm not able to scrape images from a website, is there anything special I have to look for for scraping images?"
+"dude, you are literally saving lives with this type of videos... I can't wait to digest all this precious info.....  You save people so much time with this!! you are magic!! <3 Thank you!!!!!!!!!!"
+"I'm getting this error when I try to run it:  
+File ""<stdin>"", line 2, in <module> 
+NameError: name 'page' is not defined"
+"It is amazing and helpful, it exactly what I looking for. but I have a question: Is that possible to requests multiple webpages at once and read those links for that webpage from a txt file? Thanks in Advance "
+"This is incredible! Thank you so much.
+I tweaked your code a bit because I guess newegg has changed their website from the time you created this video."
+"Great tutorial! I just made a Jupyter notebook while following it, feel free to improve upon (for example more explanations as the ones given in the video): https://github.com/thepartisan101/NLP/blob/master/Web%20Scraping%20with%20bs4.ipynb"
+"Man, great great video! Pretty simple, fast and clarifying one.  Thx a lot."
+"Many thanks for the clear explanation !!
+ 
+I only have one question. How can you find out the prices that are only visible in the shopping cart? Can you make a video about this? :D Thanks mate"
+you look like a god when your writing multiple lines at the same time.
+"Hi, this is a great video tutorial. Can you explain if i want to scrape inside those products? And if there's a pagination, how can i work with that? Thank you"
+thank you so much for this!  So helpful and useful
+Amazing tutorial!  Definitely worth watching!
+This is a very well done content . Thank you !
+"thank you my brother. Very simple tutorial! As others mentioned.. use find instead of finall and then there is no need for [0] in the following line. best,"
+"I get an error when trying to call uClient & page_html. It says: File ""/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py"", line 1318, in do_open"" and then like 40 more lines like that but from different files like client.py and ss1.py and so forth. I don't really know how to fix it. Anyone here has the same issue?"
+"Excellent , thank you.   Content, instruction  and enthusiasm terrific"
+"You don't want Annaconda. There's so much junk that comes with it. Just install regular Python and open your terminal or powershell and install packages you need. For example, pip install beautifulsoup4, if you want to install Beautiful Soup. It's MUCH more cleaner than installing annaconda rubbish."
+"Pretty much new to code other than html & css, I've dabbled and failed, but I'm going to give this a try, this is the best scraping tut I've found. For a long time I've wanted to build a very basic comparison site for my hobby because people spend silly amounts of time searching for the best prices and so far nothing exists to help us, most retailers don't have API's so scraping is the way to go. Wish me luck!"
+"Hello,
+Firstly, I would like to thank you for your great work. Then, I have questions hope you can help me. 
+Can you guide me how to get the deep links?
+E.g; if you click on the items (like in 6:32 ) then there will be some links, and how to get that links? 
+And how to write code recognize a link structure for crawler 
+like: http://abcd.com/asas/asdasd/adasdas/123/dfdss ......... and I only want to get ""123"". I hope you can understand my questions."
+I love how passionate you are about this and how clear it is to understand your explanation. I WANTS IT ALL! GIMME! Lol Awesome video!
+"I successfully got my version of this to run. I have a couple of questions. 
+
+1) Do you need to specify the [0] index for each variable in the for loop? I just tested with and without on a sample script and it made no difference.
+
+2) I don't have Excel, so I imported the CSV into Google Sheets. I am getting a ""-"" showing up from what I believe is the item price varaible. It is breaking the line in my CSV and moving the price to cell A3 instead of cell C2. I have tried price.replace(""-"", "" "") (price is my chosen variable) and it is not fixing the issue, nor removing the ""-""."
+"Loved the video! I can’t tell you how much it helped me.
+
+I am a total noob to all this in general, so I apologize if the question is silly.
+
+How did you get the program to run so the data went to excel? I keep getting a syntax error"
+the first div that it showed was item badges how do i navigate to different divs?
+"Nice video, 
+can you please teach us looping through multiple pages or urls"
+Very good explanation. Thanks! You have good teaching skills!
+This was very good. I'm a beginner to Python and this webscraping tutorial left me with very little questions.
+Really really helpful! Thank you so much!
+"Thanks for the video!
+You made our day by sharing knowledge! I learned with my friend and she too says Thank you!"
+"Hi, I'm getting stuck at 28:50 when running the script.  How do I solve this problem?
+
+$ python Dojo.py
+Traceback (most recent call last) :
+File ""Dojo.py"", line 18, in <module>
+
+    brand = container.div.img[""title""]
+TypeError: 'NoneType' object is not SUBSCRIPTABLE
+
+
+Best Regards"
+"this is gold , very informative video and easy to understand"
+"Hey! new guy here, so how would you write the 'if' condition in the loop for missing values?
+
+The pseudocode I can think of is - if variable = blank then interpret variable as python None -"
+"You explained amazingly, keep creating more content"
+Wish you would make more content like this . There are other youtubers like codeforfreeacademy and the big ones but would love to find more perspectives from other average people however i very much enjoy this content and got to learn a few things I did not know.
+"Wonderful, saved us a lot of time. Amazing!"
+"when I try to follow, it gives me the following error message: 
+brand = container.div.div.a.img[""title""]
+AttributeError: 'NoneType' object has no attribute 'a'"
+"Thank you so much! This was so easy to follow, you've earned a subscriber!"
+"brand = container.find(""a"", {""class"":""item-brand""}).img.get('title')
+
+your welcome"
+"That was very helpful in my project.
+Thank you!"
+"Thanks a lot for this video, I have been searching on internet for web scraping programs on python but I couldn't find one that worked ! Your video is perfect man !! I just have a question on a detail in the csv file: how do i do to sort the elements in different columns like yours because it's putting everything in one column. Thanks for you response, and continue making such useful videos !"
+Great tutorial. Right to the point
+such an easy to follow tutorial THANK YOU SO MUCH God Bless!!!!
+Amazing tutorial! Thank you!
+"brand = make_rating_sp[0].img[""title""].title()
+TypeError: 'NoneType' object is not subscriptable
+[Finished in 3.074s]
+anyone know why this is happening? or how to fix this?"
+This is very helpful.  You make this technical information easy to understand.  Thank you very much.
+"Damn your tutorial was very good. Helped me make a CSV for all apartments in the area i want to move that accepts dogs. As a side note I had a problem with the open file, if it gives you error about encoding or something about char add this to the ""open()"": open(filename, ""w"", encoding='utf-8') . You need the encoding part and its all good."
+That was a great tutorial. Thanks so much!!!
+"Really appreciate this tutorial, had to make some minor tweaks to keep it current - but the end result was the same! Thanks in 2020"
+Thank you very much Sir for creating such an informative video tutorail.
+"when i type uclient = ureq(my_url) it gives me a 403 error forbidden and a bunch of timeout, does this mean that it works but it crashed or will crash if it runs?"
+Amazing tutorial thanks for your help
+"Great video!
+
+I  am having errors when I look for the brand. I even used the code avalaible in the description and still gave me the same error. Further analysis of the container, I saw that the ""class = item-branding""<a href>  division (the one that contains the img) was not included when I the page_soup.find_all(""div"", {""class': 'item-containers'} . I notice by printing container in the for loop. The error that it gives me is:
+
+""ResultSet object has no attribute '%s'. You're probably treating a list of elements like a single element. Did you call find_all() when you meant to call find()?"" % key
+AttributeError: ResultSet object has no attribute 'img'. You're probably treating a list of elements like a single element. Did you call find_all() when you meant to call find()?
+
+
+Need help :)
+Thanks"
+the best and detailed  web scraping video i have ever seen. Enjoyed a lot !
+"Excellent tutorial. Thank you so much.
+I profite to ask for helping: when you are on amazon of 1 products page , and you want to scrap page 2 , 3, 4, etc, is there a code to scrap page 2, 3, 4, etc?? or do you have to scrape one by one?... thank you for your help!"
+"Its awesome  tutorial bro. scrapping is a difficult task for me untill i watch this video .thanks a lot.and i request to do a video on pipelines in data science if possible,"
+"Can anyone say what is the syntax when you are using two objects inside findAll. 
+If the HTML is    <div class=""xxxxxx"" id=""yyyyyyy"">"
+Loved the tutorial. Thank you 
+"shipping_container = container.findAll(""li"",{""class"":""price-ship""})
+
+GETTING THIS ERROR
+
+Traceback (most recent call last):
+  File ""<stdin>"", line 1, in <module>
+TypeError: 'tuple' object is not callable"
+I don’t usually comment on videos but this was phenomenal. Thank you.
+"loved it, though i m very beginner in data science and have zero knowledge in it, i watched the entire video and tried to grab everything possible discussed here"
+thank you so much this is exactly what I was looking for my company. i dont think I have the time and skills to do it (even if you explain all of it) but at least I understand now what I can ask from someone competent in this.
+It's very educative. Perfect job! Thanx a lot!!!
+"Hi Phuc, this is great - thank you! What if a page requires credentials> is there a way to program that in?"
+"this soup is very beautiful, goddamn"
+That was great!  You're a great teacher.
+"I did a Web Scraper not so long ago with another set of tools. This video has motivated to create one, too!"
+Easy to follow and understand . Thank you
+AWESOME TUTORIAL! Has all the information needed to start web scraping
+"Excellent presentation, well done!"
+I keep getting 0 when I call len(containers)
+Great tutorial thank you. Why do I sometimes not receive any containers when I run the script? Is this an issue with late JS loading?
+"Excellent, the video is really very amusing and most importantly the way you code is very excellent.
+I just fest that coding is very joyous if we can code the way u are doing.
+Really liked it and thank u a lot."
+"it must have been a magic day when I saw this for the first time 1.5 years ago !!! its where i all started !!! Thanks! Best Video & Intro into webscraping for absolute begginers !! Thanks (notable mentions to Corey Shafer who I was watching a a few weeks earlier, who gave me the taste of it & how easy it could be to use/do). Thank you friends!! An amazing tool!!"
+This is gold for someone learning python and seeing its application.
+"Great tutorial, thank you so much !"
+"def Data Science Dojo():
+    Data Science Dojo = (""like"", ""share"", ""sub"")
+    good job = (input.comment(""Thanks you very much ! ""))
+if good job in Data Science Dojo :
+
+    print(""love and respect from Kuwait"")
+else:
+    print(""sorry maybe next time"")
+
+
+ Data Science Dojo()
+
+
+
+
+
+
+
+
+
+
+-------
+
+
+Output :-
+peace out and happy basic coding :D"
+"I didn't like it...I loved it
+Clear and concise ️"
+"I'm on ubuntu, is that ok?"
+"very informative, short and sweet! Thank you."
+I don't have any words to explain how much this video was helpful. Hope soon I will use this feature.
+"Fantastic Tutorial!
+***If your findAll is returning empty in some cases, use a try, except case: Example.... 
+try: containers.findAll  except Exception as e: container = None"
+We want more data scrapping video! This was awesome!
+¿Puedes publicar un video sobre cómo scraping web con Octoparse?  Creo que esta herramienta es más adecuada para principiantes y no requiere python  https://www.octoparse.es/
+"Just use pycharm, man :-P"
+awesome!. had to make my way around a couple of modifications of the website but really good!.  just finished my first web scrap!!!
+When looking to explore what is going on in the containers I had issues with the unicode encode error (I am a n00b). Using     print(container.encode('utf-8'))   would help you see what is in your elements as you work through prototyping!
+Thanks for this. I couldn't be bothered to create colour schemes by hand for an application I am writing so I wrote a program to scrape them from color-hex.com! Saved so much time and effort designing.
+This is absolutely the best and most updated tutorial of web scraping.
+"very helpful but I was wondering how you could clear words after a certain phrase. For example in the video you used a method to wipe out the spaces before and after, what if I wanted to wipe out a whole phrase and only took a selected keyword?"
+This is way better made than the newer videos in R. Can you please make an new video like this expanding on the concept? Perhaps a script that scraps the data then turns it into a new html document?
+It's really beautiful and amazing. I have learnt many things in a single video. It's like different fruits in a single banch of a tree. Keep it up. Big clap for you.
++1 for the short and straightforward tutorial.
+"Thank you very much, this was a great and useful video!"
+HONESTLY YOUR EXPLANATION WAS PERFECT! THANK YOU
+Awesome video! I think you can use join() to concatenation with delineator
+I am a beginner in Python. This was awesome.
+Thank you for this video. You are very good at what you do.
+Excellent work!  Where can I find the code please?  Thanks a lot!!!!
+Beautiful - thank you so much!!
+Excellent tutorial. Thank you!
+"Great video! if you are watching in 2020 and using BS4, use the get() method to capture data from different fields within the <a block e.g. container.get('img')"
+"I would really like to get into a bit of data collection to do some buying and selling of tcg cards.
+See how often a card is mentioned in videos and how it relates to card reveals and how prices change.
+Combine it into an algorithm added with some small manual inputs for insights beyond data, like how big its potential is due to an effect relation to another card.
+
+Could make me some good money.
+The market is definitely easy to predict, it is only a matter of having enough data to do predictions.
+
+The only reasons I didn’t want to engage in such attempts is, that this would increase card prices for everyone and drain money from the community, whilst also having a carbon footprint for shipping/reshipping of cards. So morally I don’t like the idea too much, but it is an exciting idea."
+"Thank you for sharing this video.. Awesome content. I like the way you explained the flow and hands-on. Here is a question, when I tried scrapping other site , I am getting 403 forbidden error , how do I fix that? Is it possible to scrap a secure site?The website has https.Another question I have is,  in a real world situation, do data scientists go through each individual websites and web scrap like you did or there is some other ways? Lets say I want to get a list of all top sales online in women clothes, then do I web scrap all the websites selling women clothes?"
+"Wowowow awesome video, I thought learning web scraping might take me a week or so, and thanks to you I learned it in 30 minutes"
+Amazing!! Thanks so much for the tutorial!
+Awesome  video. Can you do a Python program to scrape current stock prices from yahoo finance for a list of ticker symbols in a csv or xlsx  file?
+"I expected this video to take me 30 minutes to do, because it takes 30 minutes. 10 hours later I HAVE MY FIRST WEBSCRAPER THANK YOU VERY MUCH! I still did not manage to get it to be an csv, but made a .txt and it is fine for now. Thank you so much again! tutorial from dataquest.io came in very handy as well!"
+Excellent video!  Thank you for your help!
+"I was searching for a selenium alternative, this is what i was expecting to find. A webscraper which runs in background. Thanks for the tutorial really usefull!"
+"Suggestion:
+From 28.11.2020: When I tried to replicate the code, I noticed that the website now contains ""ads""- which are basically graphic cards sold by other sites. The problem occurs when setting the brand name which in the video is:    
+
+ brand = contain.div.div.a.img[""title""]
+
+For the ads, divs are ordered differently. My workaround takes the full title of the graphic card (Which is the same for ads and regular entries) and extracts only the first Word, which fortunatly is always the brand name:
+
+brand = container.find(""img"")[""alt""].split()[0]
+
+Cheers, and thanks a lot for the great guide!"
+"Thank you, great confidence booster in web scraping."
+That's really wonderful. Thank you very much for this video. I'll try it.
+GR8 tutorial!  Could you do a tutorial on how to extract tax and shipping cost data of a product for different shipping destinations? Thanks!!!
+this is really helpful very much for a free tutorial. thank you so much
+"Thank you so much for this good sir, this was excellent!"
+Loving your coding skills. Was just about giving up on Web Scraping. Then BOOM!!! I found this. :)
+Very well explained. Thank you 
+"hey, great video!
+I got a bit confused on the part with the ""for loop"". in the video, you wrote:
+for container in containers:
+    brand = container.div.div.a.img[""title""]
+
+and further on the video you added similiar statements to the one above.
+my question is, how does python knows to search and activate on the ""container""? I mean, it's inside the variable (for example, brand). And also, ""container"" on the sublime text haven't been configured."
+"This is a great video, thank you so much, I followed that step by step."
+Awesome video! I can't wait to try this out and get it into a SQL DB
+"Great tutorial!  How about setting up a script to run automatically, changing just one parameter with each pass?  Of course, I think I have to set up one of my laptops as a server first?"
+Amazing tutorial my friend. Thank you so much!
+Great introduction to web-scraping. Thanks for posting this.
+Loved it! A good tutorial finally!
+"Hi, this is really cool! Absolute Legend :D 
+My_request > I would love to see a tutorial on how to scrape hotel prices for London for example. I would also like to know how to loop through dates in order to show seasonality patterns in the data."
+Thank you! Great for beginners
+"Hi, loved this tutorial but is there a way to automate the web scraper. For example how can i use it to scrape  data from a site every 24 hours assuming the content on the site changes every 24 hours"
+"Thank you for the great video!
+I followed your instructions, but by checking the functionality of the script I get an error:
+""ImportError: No module named bs4"" I don´t know why because the installation was successful. The import in the terminal was also successful. Does anybody have an idea?"
+"Just one question: we are pulling data from all the items in the same page. What if there are others for the same list and in subsequent pages? Can we pull them also using url extensions?
+Thanks in advance"
+"Yes Sir, learned a lot. Thank you very very much."
+"In case anyone gets stuck at the container.div part, other comments have addressed this but here is a solution that is current. instead do divWithInfo = containers[0].find(""div"",""item-info""). This will create the object you need. Afterwards you can work you're way toward the goodies with the following example: divWithInfo.div.a.img['title']"
+"thanks for putting together, I didn't run in anaconda, just regular python 3.7  and it worked fine"
+"Tips: add the headers paramter for fake web client to the Request call function to avoid http 403 or 503 error when requesting some websites with security against spider/bot.
+https://stackoverflow.com/questions/44280807/data-scraping-using-python"
+"Man, you just saved my Python programming subject. Thank you alot"
+"First tutorial, worked with web scraping and uses classes. # Big Thanks!
+
+for UK users: shipping caused error for me, so used the price tag instead
+price_container = container.findAll(""li"", {""class"":""price-current""})
+price = price_container[0].text[0:7] # [0:7] to get the range of it"
+"Thank you #datasciencedojo so much for this great tutorial. I have got a question - I want to click a button ""load more products"" and then scrape more. How do we do that?
+I would really appreciate any pointers."
+your such a great teacher! Just because you can code doesn't mean you can teach. Awesome!
+Really excellent way of teaching...understood every single word..just one doubt...what if i want to extract historical data ??say i want to scrape through  last 1 month airline price details  ??Appreciate if you could point me in the right direction in this case.
+Its better to monitor xhr response than webpages. Many websites will render information and containers later. If the websites use JSON internally then it becomes far easier to parse that instead of xpathing.
+"Below is also a great article on Web Scraping using Python & Beautiful Soup and what we can do with scrapped data. Complete Source Code is also provided.
+https://www.opencodez.com/web-development/web-scraping-using-beautiful-soup-part-1.htm"
+Thank you so much for this video. This really helped me to go in the right direction. :)
+"Your video was really helpful, thanks a lot!"
+Great video u explain very well plz upload more python related videos
+"Awesome,learn a a lot from one short tutorial !!!"
+Good training video. Pleased to see you added saving to a  csv.
+"that was really fantastic, quick and usefull"
+Thanks bro! very useful and well explained !
+I enjoyed this too much. Learned something now today! thank you so much.
+Great video! Please do more video about web scraping with python
+Very useful tutorial thank you for sharing knowledge
+This is a great video. Thanks so much. How about how to scrape and download images from a website?
+Thanks for the video. This was the best web scraping tutorial I have seen on youtube.
+Awesome... Great video... Learned loads that other videos and written tutorials don't cover... \o/
+Really useful. Thank you very much!Please carry on
+"Just heard of web scraping today, and this video made total sense on how it works. ty!"
+"You are sooooo comfortable to listen to. Not because you have a perfect pronanciation and a seamless script you are gliding through. You are just talking but not constantly jumping back and forwards. Accurate tempo and personality in your voice.
+
+New subscripion"
+The first video of this type that really made sense to me ...   thank you very much.
+Ho yes Thank you!! I'm a really beginner in python and I almost undertood everything!! I already have many idea how to use that ;) Do you know how to scrape pages on a website where you have to login in? I mean is it possible to login in on a website with python? Again Thank you so much :)
+"such an amazing video, thank you so much!"
+"Thank you for the video. I followed along but ran into issues when attempting this on another site. I found a dataset of containers I wanted to use, but when I ran len(containers) it returned 0. This was trying to use findAll. I tried to to page_soup.div.div.div and navigate down to the containers with no such luck. I was wondering what I would need to do different on this site: https://www.twitch.tv/speedgaming/videos?filter=archives&sort=time"
+Fantastic video! More data science videos! Im an aspiring data engineer
+It's very helpful. Thank you!
+YOU EXPLAIN EVERYTHING SO WELL!!!!!
+two days finding answers and you give me all that i need in 30 minutes !!! thanks so much!!!
+Great video bro... Finally an explanation I can understand.
+ Straight to the point! Very nice!
+Wow you such a way of teaching that just made something intimidating look so easy. Thank you sir XOXO.
+Great tutorial. Wish you've used Jupyter Notebook instead of the command line. It would be easier to follow along.
+"I usually don't comment but this video is really awesome and I really learned a lot.
+I also have a question: Can't I use ""REGEX"" to get to the details of the product"
+"Extremely helpful video!! 
+
+
+Would it be possible to make this program repeat every ""x"" time interval (ex. every 5 seconds) and write over the old document? where would someone start who was looking to do this? Basically every x interval it would be looking for new products. If a new graphics card came to the list, it would then update.
+
+
+Hope this makes some sense"
+"If I wanted to print all of the say results for the item titles, how would I go about doing that in the for loop? Since obviously, I can't increment a string, and if I do 'containers[0].text' it will just print the same thing 12 times."
+"Awesome! Thank you!
+Please, more videos about scraping.)"
+"Thanks for your video, can you make one doing scraping using proxycrawl service?"
+"Hi, I have the following issues: 1) The output in the command line has all results , but in the excel I have 1 row only. 2) The shipping data is going to incorrect column - it is shown on the second row in the column ""brand"". The row for output format that I have is the same like in the video:   f.write(brand  + "","" + product_name.replace("","", ""|"") + "","" + shipping  + ""\n"")
+f.close()"
+you guys should really continue this series
+Excellent Video! Please keep making such content.
+"It was really great video, I am python beginner and it helped me a lot. But I would like to know how to scrap google reviews of places. It will be great if you post some video on that. Will be really appreciated."
+"How can I use the second item of an HTML typer after I defined the container (20:00). On the site I am scraping on there are three H4, I need the second one but also need to get one layer deeper afterwards.... Any ideas?"
+This is awesome. Thank you for sharing :)
+Thank you! Very informative.
+"What a clear  explaining,    thank you  man,,, i m learning... do you teaching on Udemy ?"
+"Nice tutorial, thank you very much. Do you or someone else in the comments know how to put in browser headers, so that the website (Amazon) isn't blocking my requests?"
+"very nice explanation, it is very useful to me"
+Great tutorial indeed. Thanks
+"Amazing tutorial!!!!
+
+Thanks :)"
+Thanks for the tutorial really helpful
+"very useful, thanks so much !"
+"Awesome tutorial thank you. but for a non-tech user it is quiet hard to do a workable scraper for my WooCommerce store. As a side solution i am using eCommerce scraper via ""ESCRAPER"" maybe it helps somebody too.
+But I am not giving up))) Thank you for your input!!!"
+It's like magic. Thank you so much for this video.
+"Good job man, very helpful"
+Tip: use SelectorGadget to find the css selectors you want
+"Great video! How can I change the search inputs on a website when I shop for something, so it searches the website with my input and get me the data? Please help "
+"Excellent Explain as compare to other. Hope through this channel , my concept on Data science will clear shortly. And only this channel where i got good concept on R ."
+"Hello, with my project that I am working on, there are only <div> tags, so it makes navigating the tags difficult. The data that I want is located between two <span> tags, and I am unsure of how to collect that data. Once again, after I write ```container.div.div``` it cannot go any farther into the HTML code, despite there being more <div> tags embedded in it. any help or resources would be greatly appreciated."
+"Thank you so much, this really helped me!"
+You get down Phuc! Appreicate you sharing. More Web Scaping videos please where you also post your code - GitHub / Jupyter Notebook status.
+"great video, I am not sure how you loop multiple pages, you said something about it.  How do we loop over multiple pages, any one can give me a hint that would be great. thanks"
+"its really perfect tutorial, thank you"
+"u are very good explaining this content, thank you so much. it so easy :D"
+"Amazing, i was trying to do exactly that!!"
+"Great tutorial, thanks!"
+Wow! Amazing trick. Kindly upload more like this.
+"Hi, how can we do it for multiple pages? Suppose what if there are like a 10-20 pages ?"
+"You shouldn't use names of variables in ""camel case"". Use ""snake case"" for it.
+Programmers use ""camel case"" for classes naming."
+"Here is my version of code. I used requests instead of urlib.requests since they are much easier to use.  I scraped newegg's laptops.
+
+from bs4 import BeautifulSoup as soup
+import requests
+ 
+f = open(""data.csv"", ""w"")
+f.write(""Brand, Title, Shipping\n"")
+url = requests.get(
+    'https://www.newegg.com/Laptops-Notebooks/Category/ID-223')
+html = url.text
+page_soup = soup(html, ""html.parser"")
+containers = page_soup.findAll(""div"", {""class"": ""item-container""})
+for container in containers:
+    brand = container.div.div.a.img[""title""]
+ 
+    title = container.find(""a"", {""class"": ""item-title""}).text
+ 
+    shipping = container.find(""li"", {""class"": ""price-ship""}).text.strip()
+    f.write(brand + "","" + title.replace("","" , "";"") + "","" + shipping + ""\n"")
+ 
+f.close()"
+"If you're using Mac and you've installed Python3, make sure to double click the Install Certificates.command file before you use the uReq func or you may have SSL Certificate verification errors. 
+
+File Path: Applications > Python 3 > Install Certificates.command"
+"well presented !
+[1]  if code could be downloaded, it would be wonderful. 
+[2]  if Chinese character be read as it is read on the screen.  If not, what codes be added."
+Omg  You are the best! I have finally started to understand everything! Millions of thanks 
+"OK but... at 24:40 this came very close to what I need for this project!
+What I need now is something like: container = page_soup.findAll('a', {""class"":""set""}.[""Change""] (or something)"
+"Thank you for the video, very clear. Someone can tell me how to avoid being banned from some websites because of daily scraping ?"
+"Thank you for that amazing tutorial.
+What if the web developers changed the classes names? Than I have to rewrite my script or there is an easier way?"
+"Senior Data Scientist, Senior Database Engineer... I know a fellow gamer when I see one!  Thx for the the Tutorial.  All this time...all I ever wanted from most of the internet was the ability to ""scrape"" (new term for me) what I wanted so that I can do something with that data.  I like to organize things and categorize them.  I always thought rss was okay...twitter okay...reddit okay...but I just want specific feeds from those sites and this is exactly what I was looking for!  Better than paying a monthly fee to somebody who won't even teach you how to do it.  Maybe its from collecting cards as a kid or playing video games that had really in depth inventory systems (rpgs).  But it is enjoyable when you can get the exact bit of information you want and then do something cool with it.  This is helpful!  Where were you when I needed to organize my bank in world of warcraft!!!"
+"If you get a ""403 forbidden"", add a header to your variable like so : 
+
+url_1 = 'Your url here' 
+url_2 = Request(url_1,headers={'user-agent': 'Mozilla/5.0'})"
+"Great video! Really enjoyed it. 
+Do you have any suggestions on how to web scrape data from Facebook? Is that even a thing?"
+Very helpful!! Thanks :)
+"That was so well done! 
+I like to learn Selenium from this guy."
+Very good stuff! Thank you!
+thank you so much for this tutorial. I enjoyed the tutorial a lot until the last part where the task was to open saved python text file... It's showing that there is no such file on directory... could you please help me out with the error that I'm dealing with???
+"So thankful for this, I was able to run it and scrape similar information off of a coding website. I had some trouble with installing BS4. Tip, I used pip3 to install BS4 to keep everything clean. 
+
+
+sudo pip3 install bs4"
+"Hey dude great video... wanted to scrape keyword so that when we search any keyword (example : Company name) it will go on google and extract basic info such as company's -URL,  contact details, latest news, social media page etc... can you make a project of such kind? and is there anyone that can help?"
+"Thanks for a great video! 
+It looks like not every website allows scrapping, how do I know if it does? Check robot.txt file? Not sure what to look for"
+I think we can also use the prettify() function instead of going to jsbeautiful.
+"Sir, you got me have a real taste of python.. <3  Thank you so much.."
+Hands down one of the best CS tutorials on this god forsaken website. I will subscribe and continue to watch :D
+Thnx for the beautiful video this is help me a lot even i am b.com student but with the help of this video i did what i want.. Thnku so much bro..... ️
+"I found this in 2019 and it's awesome! 
+thank you <3"
+thank you so much. super helpful!
+"I have a question. I followed you all along. But there are other divs which have a class of item-container also that are located at the top. They are within a div that has an id of recommendations. And when I do containers[0] what is shown is not the first product that has bigger image, instead what is shown is the first product at the very top that has smaller image--the products that are recommended? Please help. Thanks."
+One of the best scraping tutorials good job
+"Pretty helpful, thanks alot dude"
+Excellent tutorial!
+"this was so much easier than i thought, thank u"
+"To bypass SSL error you might get on MacOS, use this piece of code: 
+
+
+
+import certifi
+import ssl
+
+
+uClient = uReq(my_url, context=ssl.create_default_context(cafile=certifi.where())) 
+
+
+
+instead of the simple 
+
+
+
+uClient = uReq(my_url)
+
+
+everything will work fine."
+Awesome! Thank you for this video.
+Can you please make a video about actual code needed to iterate thru all pages of the web site?
+you may want to change the parser type 'html_parser' to 'html.parser'
+"Hello! I was trying to follow your steps. But when i put the page_soup.h1, it is not getting the information from the webpage. Can you please tell what could be wrong?"
+VERY CLEAR!!!thank you
+Thanks for this awesome tutorial.
+Excellent! Thanks a lot!
+Amazing Intro video for scraping from the web!
+"Amazing, thanks for sharing!"
+I am from commerce background. I have zero knowledge of all the programming language. I found your video and explanation so good that at least now I can start my journey into scrapping and coding. I am so thankful at the moment. Love your channel. Thank you so much.
+Great video! Is there a list of other videos done by this guy?
+"great video, learnt it so fast"
+"""w"" - Write - will overwrite any existing content
+
+f = open(out_filename, ""w"") 
+
+and inside the loop we said
+
+f.write(brand + "", "" + etc...)
+
+wouldn't it overwrite the file every time an iteration is completed?"
+Thanks man it helped me a lot!!
+"Hello 
+Excellent video I have been following all the steps you have done but when I got to open a second command line to run the python file it gave me this error (python my_first_webscrape.py
+  File ""my_first_webscrape.py"", line 1
+    from urllib.request import urlopen as ureq
+    ^
+IndentationError: unexpected indent)"
+"Awesome video. Ran into one problem, all my prices are numbers, none of them show up as Free Shipping even though when I look at the page source and can see that they say Free Shipping."
+awesome video. keep doing the great work.
+️love. This is my first ever seen video on web scraping and you did an awesome job explaining it to me..
+You helped me a lot <3
+"Thanks for the nice tutorial! Why I can't code that in an IDE, just in a terminal?"
+Saw many videos on web scraping but yours was probably the best one.
+"Excellent, very clear"
+"Beautiful, clean, right speen and consise contenet , thank you very  much"
+Really enjoyed the video. Very helpful.
+Loved this very clear tutorial. You should look into using Jupyter Notebook instead of having to jump between the script and the command line. Thanks
+Boy is this ever clear. Very straighforward presentation!
+I enjoyed this video A lot I also Liked how much you explained it
+Wouldn't it save some time to select the required tag using: Inspect > Right-click on tag > Copy > Selector/Xpath ? Just wondering
+This is just awesome video. Thank you very much.
+"While following along step-by-step (in python shell); I get an error when I run the line that says ""uClient = uReq(my_url).   I can't seem to get past that point.  I get a message that says ""Traceback (most recent call last):"" and then proceeds with line after line of what looks like commands from the urllib.  I'm new to this, so any help in pointing me in the right direction of what might be happening would be appreciated."
+"That is awesome. Thank, man
+it was really helpful"
+Really nice tutorial!
+"Let's say we're working with a really sloppy site where the developer can't handle their own naming conventions properly.
+
+I've got two separate arrays set up - one for table headers, one for dynamic content.
+
+But, due to the genius coding on the site, some of the headers show up as dynamic content.  The bogus data does have a unique ID, but the problem is it meets the wildcard findAll for both array creation lines that I've made.
+
+ie: 
+
+Good data1:  fooBar_[random characters for each item]_lblThisRow
+bad Data1: fooBar_[even more random characters]_lblSillyProgrammerUsedWrongPrefix
+Good data2: fooBar_[more random characters]_lblThatRow
+
+Is there any way I can create a few lines of code to pluck out the few instances of bad data?  The (bad) naming convention is at least consistent with the template, so any search results come back have the same mistake."
+Really nice video my friend! Thanks a lot
+Good Video. Question.  How do you do it if the website checks if you have javascript enabled?  Can you make a tutorial on how to do it? Take example:  www.marketwatch.com
+I really enjoyed it. Thank you.
+"Thank you! If someone is scraping another website that won't give permission, check here and try using the correct answer: https://stackoverflow.com/questions/44865673/access-denied-while-scraping"
+"thanks dude , that was a really nice tutorial  (Y)"
+The best tutorial. Thank you. Much better than all videos in russian lang
+Thank you for great content!
+This is ridiculously awesome bro! Love your energy. I def appreciate you making this video. I'm addicted to you channel now.
+"Hello! I'm trying to scrap a website to collect video links I've followed upto 14:30 of video. i'm having difficulties in using the findAll() or find_all() methords.
+Inside the html there are these  
+       <div _ngcontent-c8 class = ""class name example"" ......> 
+and 
+       <a _ngcontent-c8 class = ""class name example""......> 
+
+
+tags so if i try to use the 
+
+
+container = page_soup.findAll(""div"",{""_ngcontent-c8 class"":""class name example""})
+ or
+container = page_soup.findAll(""div"",{""class"":""class name example""})
+
+
+it returns me an empty list. i've tried using page_soup.find_all() tags as well but it all returns the same empty list.
+
+
+KINDLY IF ANYONE KNOWS HOW TO RESOLVE THIS PLEASE HELP ME!"
+"Yes, enjoyed and learnt a lot. Thankyou."
+Was helpful. thank you!
+"@20:40 If the ""container.div.div.a"" does not work, just do ""container.a"". it works the same."
+Excellent keep ‘em coming! 
+Awesome video. Very Informative!!
+"This is great but mine blew up. Do you have the source available somewhere?
+Update: I was scaping a URL that didn't like my ""browser."" it gave a 'forbidden' error and I thought it was a package error. Now I will watch the video again.
+Another update: I followed your steps on a different URL and created a script that will be very helpful to me. THANKS!"
+"Great, that was so helpful"
+"Thank you, this was my first web scraping"
+Very nice explained with a very relaxing voice. Thank you
+I loved this video. Thank you !
+Excelent content! Thanks!
+"Hello.
+How do I put the results of web scraping on a website using something like Django?"
+Amazing! Love the content
+"Why do we create the ""containers"" variable? Couldn't we just use ""page_soup"" as the main area to search, since it contains all of the code?"
+"This is probably a foolish question but do anaconda and sublime have to be in the same folder? If anyone could let me know I'd really appreciate. 
+Also thanks so much for this video Phuc!!"
+"My dude how on earth you have so little subscribers, your content is awesome"
+"tip for windows 10 (or others)
+I had to put .\python instead of just python in the cmd, hope it helps!"
+"best web scraping tutorial, i have been ever seen. thanks bro !"
+"6:28 - The goold old times where a mid-upper graphics card (GeForce GTX 1070) could be bought under 400$  :')
+
+Great video, thx!"
+"awesome tutorial , upload more Data Science videos ."
+GREAT VIDEO!! I WATCH THIS 2 YEARS AFTER ITS UPLOADED AND STILL RELEVANT!! THANK YOUU!!
+"Excelent, I have a question, I need the images, how can i get the images in format JPG?"
+"best video ever! but i got an error in the loop with the name of the brand, the program gave me this error: brand = container.div.div.a.img[""title""]
+TypeError: 'NoneType' object is not subscriptable
+The error appears only in the third loop, it gave me the first two brands but it stoped at the third with that message. But I fixed  it by putting a Try / except into the brand name and it run well but it skiped a few brands like ''cobra computers'' and ''Corn electronics'', so I dont understand why it happens. If someone knows, let me know pls."
+"Got stuck at 21 minutes...
+I've noticed that your example is very convenient for scraping and that, in reality, most websites probably are not.
+For example, for the website you used, every item (graphics card) has the same container, literally called ""item-container"", so ther are 12 of those.
+The site I want to scrape from though, there are 20 items (car lease deals) and 20 different containers, example deal_3273683264, deal_456736420, etc.)
+Great video either way, I have learned alot despite being unsuccessful."
+"Thank you so Much.. :) Followed you and Mission Accomplished..
+Firstly I was getting issue of SSL: not working... on macOS
+then this worked for me...
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
+
+rest was working like butter..."
+This is a good tutorial but for me it would be better if you prototype and script on the same screen or just put he script in the description
+A big thumbs up man really helpful
+"thank you for your video, I have learned so much from your video! Good luck! regards"
+"What if you had a series of urls you wanted to scrape in a loop? I'm assuming the first step would be putting them all in a list like urls = ['url', 'url', 'url']. But then I'm not really sure what I would do after that."
+"Hi,
+could u plz make one video to explain data scraping from different page of same website?
+
+Thanks in advance."
+Great tutorial!! thanks
+"thank you  so much for this video .. Actually i am assing. to submit .. and this is a huge help for me . I am a noob .. but this will help me a lot..
+\"
+"""See price in cart"" <- can you add it to the cart and get the price there? In Python, I mean.
+Better: can you add 999 to the cart and read the error message to know how many they have in stock?"
+You should really use the csv module. Saves lots of boilerplate you had to enter when writing your CSV.
+"for container in containers:
+    brand = container.div.a.img[""title""]
+    title_container = container.findAll(""a"", {""class:"": ""item-title""})
+    product_name = title_container[0].text.strip
+
+
+when I run this I get an error saying ""IndexError: list index out of range."" Do you have any idea why this is happening?"
+Top drawer instruction. Excellent
+Wow i didn't know you can scrape like this too. I've been using Turbo Marketer - Instagram Followers Scraper and it helps me scrape some info in instagram.
+Thank you so much this was great! Sooo sooo great
+"Thank you for making this tutorial!
+Really!"
+Which key combination did you use at 27:45?
+Thanks for making it fun!
+hello sir the video content is very useful update the video content for the updated webiste now the existing video content is  very time consuming thank you for the useful content
+"Great video, thank you."
+Thank you very much. It is fantastic... !!!
+"AttributeError: 'NoneType' object has no attribute 'div'  m getting this error while running the code.It would be great help if anyone could tell how to tackle this.
+P.s-  brand=container.div.div.div.a.img[""title""]
+I have used div 3 times because the title was present after 3 div.Correct me if I m wrong"
+This is amazing!
+dude your a bad ass. i am barely familiar with html and css and want to get more into bots. i am however very new to this area of coding. i think your video was super good and i was able to understand you pretty good for me not knowing shit but i was a little left in the dust a couple times and wish you had a video for super noobies like myself to become familiar with the lingo and programs. just thought i could use notepad for writing code and like what if i want to say for example scrape information from several different pages. example if i wanted to scrape emails or phone numbers from craigslist would i have to literally go into every ad link  that url..im sure theres a way to have the scraper do that work for me correct? either way great job on your video dude your gonna be my go to sensai for tech stuff
+Does the command line have to be in a particular folder? Or must it be in the same directory as the IDE and text interprators?
+"Whew,  made it through the tutorial. Thanks a lot."
+Awesome tutorial
+Can you also grab the image of a product and store it?
+"In your example, how to loop second, third or fourth page of the website?"
+"My jaw is on the floor O.O 
+I could not imagine that things like this are possible to do with Python or with any other program. 
+This is awesome. It is so fucking useful. 
+Gosh! 
+I want to learn these things. 
+Great skill. 
+Thank you for this video, for me is like eye-opening information. 
+I will subscribe to your channel.  :D"
+Best Web scraping video on youtube! thank you for that
+"Hi, I couldn't get any result after entering page_soup.h1 or page_soup.anything. I've tried doing it in both terminal and jupyter notebook. Does anyone know what's the problem?"
+What are some common algorithms used in web scraping?
+"Great video, Thank you!"
+"I looked and findAll is exactly the same as find_all, with find_all being naming convention compliant for python 3."
+Thanks for the tutorial!
+Nice! Thanks for this!
+How did you make this so simple?
+Awesome tutorial
+"super cool, why not make more in depth ?"
+Beautiful work
+thanks man this was very useful
+This is so good. thanks for the video
+"I've a question and I really appreciate your help
+
+I was trying to use urlopen from urllib.request for a website but it ran into an error saying Error 403 forbidden.
+Is there anyway to get html of that wabpage, by automation?"
+Best Scrapping Video ever.  Thank you.
+Thank you very much for your comprehensive tutorial video. Good job from Vietnam.
+"Can somebody tell me how we do to apply this to multiple pages ?? 
+
+It finishes with: 
+?page=2
+
+And I want to do it until page 50"
+Beautiful man.. loved it.
+Please make more data scraping tutorials using python
+This was mindblowing.
+Could you show us something similar but with the data ending up in a google sheets file instead of an Excell file.
+GREAT TUTORIAL!!
+Brilliant! Thanks a bunch...
+very useful really thanks
+This is great thank you
+"one of the best tutorials ever, tbh"
+hey man love the video its really helping for school project but does this work in real time
+html5lib and html_parser What are the differences? Thanks in advance.
+"Thanks 
+
+How do you loop though all pages ? 
+Do you have to find the url patern?"
+Is there a reason to use BS4 instead of Scrapy?
+"I learned so much, I can't believe it!!!"
+Quite Good for Beginners. Thx~~~
+"Just one word...., Awesome !"
+Does anyone know how to get the price text?? I did use the findAll() function but I still can't extract the price text data
+Great Intro to this stuff! Nice Video!
+why are you switching back and forth between CMD and Sublime ? you can view the output in sublime with ctrl + b
+is there a way to download a channel playlist with the names of the videos in a txt or xls file (WITHOUT downloading the video itself)?. I believe 'youtube-dl' doesn't do this
+Amazing tutorial just discovered you but take a breath man lol Looking forward to more of your videos
+What if I want to scrape multiple pages of graphics card? How do I loop through all pages?
+"Great video!
+But when I tried running the script at at 29:01, the Anaconda Prompt said: 'python: can't open file 'WebScraping_NewEgg': [Errno 2] No such file or directory'"
+Beautiful !!
+"I would give you trillion likes, i was making huge data scraping and one part of code wasnt working in many req. and you de god of scraping make my week."
+Really cool stuff!
+Great video but What to do if multiple pages are there
+"Holy shit. This is awesome you saved me a lot of time by learning me how to scrape.
+Thank you also for having a pleasent voice to listen to for 30+ minutes :)
+
+Cheers!"
+Superbly Done.
+"Hi, I'm trying to scrape something that requires account access. How can I do something like login to the site before scraping?"
+Best tutorial ever!
+"Great vid, once I get to 6:52 after I've named the URL, I get an error stating 'urllib.error.HTTPError: HTTP Error 403: Forbidden. '
+
+Any way to get around this?"
+THIS WAS AMAZING
+Really good explanation on web scraping. Greate content
+"Hey, do you know how I can make this work on sites with Cloudflare DDoS Protection? Because when I run it, I just get the HTML code for the redirecting CloudFlare site."
+"Awsome, Good, Excellent, Nice, Best.
+Hope Youtube's algorithm recommend this to every Scrapper Enthusiast."
+"WOW, thanks man, wonderful"
+I´ve been watching your video and trying to replicate it but the problem is that the web page has a different estructure now. There is a <div> inside that first <a> so when i type container.div it does not go to the <div> below that <a> but rather shows the <div> inside that first <a> how can I tell python to show me the <div> outside that first <a> ? Thanks!
+Man ! what a video ! Amazing.
+Ok so I'm following along but when I get to the calling the containers[0] to get the html when i run it in both my terminal or print it in my editor the html just comes out as one long line. Its not formatted at all
+"Hi, do you mind to share how should the codes loop to scrape some contents based on the main category and sub category? Meaning, instead of just a particular url (specific page), I would like to scrape and arrange some data based on the main and sub category when I'm on my general url."
+Great video 
+Thanks. Just watched. Will try tomorrow!
+Nicely Done!
+This was so helpful
+best python vid for bs4... seriously thank you.
+"I might have missed something in the video. The variable container is not declared in your python file, how can you use it?"
+"Liked it so much, Is there is a way to scrape a page that has a textbox searching and no direct items?"
+"BY FAR the best tutorial I've watched for web scraping.
+
+But could someone just help me out with scraping through multiple pages? I know the guy mentioned something about it in the very end but still"
+really great video !
+Absolutely Brilliant
+"So when i input python in the cmd, I get a message saying that the python interpreter is in a conda environment, but it isn't active. I went to look at the environment info but found nothing. I tried to follow the tutorial without fixing the issue, but I can't even install the pip bs4 thingy so idk what to do"
+"This is a great video! Even as someone relatively unfamiliar with coding and python I was able to follow along a lot of the big picture, I need to learn more basics before becoming totally fluent but this was great. Tyvm for producing this content"
+Very good video! Really quick and straightforward tutorial!
+"Thanks, your video help me a lot."
+"Really enjoyed this. One of the most clear, concise and entertaining web scraping videos. Would really like to see more web scraping videos and how to incorporate them into a program that will systematically retrieve and update the information and present in a user friendly format :)!"
+How to copy certain contents(it might be image) with formats of HTML to docx?
+Fast paced and perfect help for those trying this out!
+"LOVED IT MATE! I'VE BEEN TRYING WEB SCRAPING FOR A LONG TIME, GOT THE SYNTAXES AND EVERYTHING FROM OTHER TUTORIALS, BUT THE WAY YOU SHOWED HOW ITS DONE, LIKE THE HANDS ON PROJECT BASED REAL LIFE IMPLEMENTATION AND THE WAY YOU MADE IT WORK CLEARED SEVERAL PROBLEMS I HAD IN MY CONCEPT! FEELING REALLY HYPED THAT I CLICKED ON YOUR VIDEO FROM MY SUGGESTIONS AT 3 45 AM! SUBSCRIBED! PLEASE MAKE MORE DATA SCIENCE VIDEOS! <3 Thank you :p"
+How to copy certain contents(it might be image) with formats of HTML to docx?
+This tutorial was awesome! Thank you very much! This allowed me to write my first web scrapper without much fuss.
+"My script worked fine... but my output to the csv put everyting in column A, it did not space it into columns A, B and C... PS GREAT tutoria!"
+More coding videos please! Keep up the great work.
+"Superb!
+Very useful. Short yet detailed.
+
+Would love to see more of such videos."
+"Sir, how to read this div tag
+<div class=_3215  row>
+I am unable to read this using
+soup.findAll(""div"",{""class"":""_3215 row""})"
+"Great video!! I learned a lot. 
+
+One question; is it possible to loop through drop down menus? I think that would make a great addition to this video. 
+
+Thanks again!"
+"hi, i have a question, you wrote container = containers[0] on python console but not in the code script, and it works like magic. How was that happen? is python doesn't need to know that variable information? sorry i'm a noob"
+Great! This has been really straight forward. :) I think I won't go on with my crappy web scraping book. And the source code editor is amazing! Thanks a lot!
+"I really enjoy your teaching style, keep it up and more on scraping, python, coding. Thank you!"
+"""C:\ProgramData\Anaconda3\lib\urllib\request.py"", line 649, in http_error_default
+ raise HTTPError(req.full_url, code, msg, hdrs, fp). 
+urllib.error.HTTPError: HTTP Error 403: Forbiddenurllib.error.HTTPError: HTTP Error 403: Forbidden
+what the hell does this mean?"
+AMAZING!!!!! you just helped me so much with my school project! please make more videos like that about popular python packages! love this programming intros and tutorials!!
+"Hi,
+how do I get product url and image url?"
+Great introduction for web scraping in python using beautifulsoup. Do you also happen to have a tutorial on using for example csv.dictreader to write your csv?
+Hi I am so excited to see your tutorial! THANK YOU SO MUCH! I have a question how can I write into a CSV file for same information from different links whose webpages have exactly the same structure?
+"Could someone help me - I get 0 when finding len(members) for my page. The relevant line on the inspected page is 
+<tr role=""row"" class=""odd""....</tr> 
+or
+<div class=""member row"" data-member-id=""1"">"
+"Watched this halfway but i was so impressed had to write a comment before finishing it. Thanks for the video! Unlike others where they just code away and make passing statements without really explaining, you did well by at least explaining what you were doing for those familiar with programming but not necessarily with python and its syntax. :)"
+"Wow, So cool. I think this is what i need"
+Hell yes I want to see more of this. This was awesome man thanks for putting this up ! All I have to figure out now is how to download the images associated with a real estate listing and my project is Done!
+"Thank you so much, that was an easy to understand Tutorial. I'll definitely rewatch it as I am progressing in my Topic Modeling-Project. I hope this kind of Script'll work for my purpose as well. What I didn't understand was, if I had to download bs4 or is it already implemented in Python/Anaconda? And is there a way to write every output in a single file?"
+"Could you do an updated version? They changed the website. And I haven't been able to grab the brand. So, I deleted that part and updated the URL. And it still works."
+Wow!! Thank you a lot. Been trying to learning web scarping and this video took me a long way. Thank you.
+"sir pls make video on how to update,insert,delete data from sqlite through  fetching it from treeview it would be very  helpfull for many of us pls sir"
+"very good video. 22:36 you get the a tag's ""item-brand"" because the container itself is the div  ""item-containter"" so instead off findAll you can do container.div.a.text and get the same result faster (explicit tagging is faster than findAll)."
+"Thank you, this video was really informative and explained in a clear way"
+wow thanks man! that's SO awesome!!!!!
+Wow! Just completed the tutorial hands on. Already falling in love with Python. Nice work!
+Nice Tutorial thank you
+The best web scraping tutorial I have watched. Would it be possible that you can also demonstrate how to web scrap on the entire site products?
+"man...!!! this was and is the best programming video I have ever watched. I watched tons of videos. Your speed to me was reasonable, voice clear, skill level super and bug free! thanks millions man :) liked, subscribed !"
+Can it apply to https page?
+Thank you so much. This was an excellent introduction at a level that I could easily understand.
+Hey how do I get my text editor to show up next to version of python when I type python?
+Loved the video! This is my first python script and crawler. Thanks a lot brah! Keep them coming.
+That was great. This is the first coding lesson that I saw useful. Please post more of different projects. Gave you a BIG LIKE!
+Good tutorial but please use pycharm next time
+Very helpful Tutorial. Great Job. Just one quick question: What if I wanted to scrape only the first 6 products and not all of them? How would I do that?
+If i'm pulling from a webpage using pagination do I have to change anything?
+"I love this tutorial! 
+Just what I've been googling for months."
+Big thanks for the tutorial! You made it easy to understand.
+hey what do i do if the html code im obtaining is in one line string?
+"Thank you, this is very helpful and easy to follow."
+can i get code for scraping in multiple page? thanks in advance
+"Very Informative and interesting.
+Looking for more tutorials specially scraping data from html tables.
+thanks :)"
+Thank you soooo much...... one of the best tutorial I have seen on YouTube... this helps me a lot ️
+how you check for duplicate records in your output. like I want to put only unique records in my csv ?
+"Thank you very much for the knowledge class, I found it very didactic and now I can progress in my projects."
+how do you know if its an html.parser file? Where can i find that information if i was to be on another site of a different file type?
+Thank you very much! You taught this exactly the way I learn the best.
+"Dude! You're AWESOME!!!! Fast, easy to understand, clear ...and right in point!!!! +1"
+"SIr, I followed everything you said but everytime I use from urllib.request import urlopen as uReq  - I get a traceback stating ""*No module named request*"". Please help if anyone know how to solve this."
+"This is great thank you, really clear and easy to follow. Just one question, how do I scrape a site which requires a password to access it. At work we use a site which requires a password to see our timetable each week, I would like to be able to pull this data into a csv file without needing to access the site in order use the data elsewhere. Is there a video on this?"
+Brilliant - thanks
+"Yes , Loved it.
+Please make more videos on Web scrapping. It was fun learning."
+"Thank you ! One question : ""internet becomes an entire database"", is it sometimes illegal to retrieve data from a website ? How many percentage of websites really allow data sharing ?"
+How do I import BeautifulSoup into Python vers 3.8?
+"Beautiful, really nice. thank you. Do you know how to do it in a continuous way?  let say each 30 minutes, just extracting the new items added  in those time."
+Awesome video!
+"Thank you so much! This video helped me a lot.
+The explanation is pretty good."
+"This was great. At first i thought I'd just watch the first 10 minutes to get an idea since I am just starting with python, but it was so engaging and simple to follow that I was surprised when i realized I got to the end of the video and wanted more. Thank you!"
+I get an error when I am typing len(containers) it is showing 0 instead of 12 .
+"Great tutorial!!!!
+
+Are you going to record the part two about fetching more pages o categories? :)"
+I'm doing a web scraping project for our company. How can I make an executable file out of this?
+"so useful! please, more of this exact same web scraping thing>>>"
+Very nice video! Simple to learn!!! Thanks!
+very helpful try to do more this gon help everyone.
+Thank you! Spent several hours with Derek Bana's Python primer then your video was the second one. I can't believe it worked first try on almost every step. Only had to reboot after installing Anaconda before getting the bs4 import to not fail. Just the OS needing to update the path.
+when i print containers[0] only a small part of the html is shown. All the contents of the class item-info and item-branding is hidden. How can i solve this?
+Incredibly helpful and easy to follow. Now I just have to find a way to run that thing on a server.
+Thank you for your tutorial. It helps a lot!
+amazing video thank you
+Fantastic Video! Very practical!
+I like the way of your teaching.
+"Nice video dude
+Just a suggestion,  to really get introduced with web scraping use the entire thing not just importing it as X. Just a suggestion...
+but yeah great video really opened my eyes to webscraping."
+"Great video, but you should start using jupyter notebook for interactive prototyping. Much easier than copying and pasting from command line."
+How to scrape data on multiple page (next page)?
+This was very well done. Many thanks
+Hi would you recommend using urllib or requests?
+"exactly what i needed, Thank you....... one of the best explanation tutorial ever..."
+Thanks a lot for the great video.. best video on web scraping. this is what exactly I was looking for :)
+"Good video, thank you"
+"DUDE, this is the best video I`ve seen, Very detailed, not boring, even python noobie can follow up, I can't believe I watched 33 min without being bored,
+gj looking for more amazing vids"
+"When I try to do a variable.div.a it tells me ""ResultSet object has no attribute 'div'"""
+"Thanks a ton! You've made this really, really easy!"
+Its a very great video for beginners to learn web scraping.
+Nice Video. great! Helped me a lot!!!
+I really appreciate this kind of video. Thanks a lot :)
+I'm struggling to create brand. I get an error working on the for loop. Please try to put code at the centre of screen rather than where the subtitles are... or remove subtitles
+Fantastic tutorial.. thats so clear!!
+"Great video, the first one that I was able to follow until the end. 
+I have an issue with my output file as it only prints the headers and the first line. How can I create a container loop so it goes through all available containers. When we defined container = containers[0] I dont see where in the python code that line was added. Thanks for the help and keep it up."
+the best video. thanks!
+"I'm very new to python. I did this 100%, great tutorial. I am trying to do this on another page now but I keep getting something like ""urllib.error.HTTPError: HTTP Error 403: Forbidden"" after entering the line ""uClient = uReq(my_url)"". From what I've read it detects me as a bot. So my question is how do I go about  changing the user agent for urllib using this?"
+"I need to scrape data from different websites so how I can I do that in this script.
+Also either any method to pass a text document to the ""my_url =  "" So I can put all the websites in that text document and then pass it to the my_url variable to scrap from those sites and store in a csv file."
+Great video thanks you. But what do you do next? how do you apply this to your web? or plugin
+Really nice and clear tutorial. Thanks :)
+Can we use xpaths in soup?
+"GREAT introduction to webscrapping, thank you"
+so what to do when you've got to scrape the whole website? i mean like all the pages? do u have to go to each page individually and scrape them?
+Really nice video I learned a lot.
+THIS WAS SO AWESOME AND SO MUCH FUN! THANK YOU!!!!
+the first element of your container did not match with the first element of my container. It is also counting in the adds that are shown! what should i do?
+"Geez, I can't believe that I learned so lot in this simple video."
+"when I run page_soup.h1, I get no error, but I also get no answer (this is for a different page than the one in the video).  What do I do now?"
+"I asked one question on a forum on how to extract data from a website.  One person replied saying web scrape with Beautiful Soup.  Google search found me this video.  I just did my first scrape thanks to this video and man, I just opened myself up to a world of data gathering now!  Thank you for this great beginner video."
+"It's a great video, thank you for this."
+How do I update the information that is inside of excel file automaticaly?
+"Thanks man! I tried to use the same framework on another site and I can't get it to loop through all containers. What am I missing?
+
+containers = page_soup.findAll(""div"",{""class"":""thumb-block""})
+
+for container in containers:
+ image_url = container.div.div.a.img[""data-src""]
+ 
+ title_container = container.p.a[""title""]
+ title = title_container
+ 
+ vid_num_container = container[""id""]
+ vid_num = vid_num_container
+
+print(""image_url:  "" + image_url)
+print(""title:  "" + title)
+print(""vid_num:  "" + vid_num)"
+Great tutorial ..
+what do you do in the case of websites with dynamically generated content? what changes?
+THANK YOU SO MUCH! It was so good!
+Does anyone know why I only get the first index when i run the my_first_webscrape.py file? It doesn't loop through all the products. It only gives me one at a time
+"hey, one question though, what if you need a piece of information that is available only if you open one specific video card page? For example you need the comments, but you can see them only if you open each video card page? Can you go that deep with it?"
+can i use anaconda prompt instead of the command prompt
+Great tutorial!
+Awesome tutorial buddy!
+Great Job !!
+That is something great !! I loved it.. I learned something :)
+"hey, bro I still don't know how to scrape the rates, because as you say there is some products that don't have any rate so we need to add some if conditions but I don't know how to do it.
+please reply."
+"Awesome video dude. Really, really nice!"
+Enjoyed it! What about if it DOES have an API?
+"When I try to do the control c as shoe at the very beginning of the video I get a “keyinterrupt” message, any help on this?"
+"Will keep this knowledge handy, if not for e-commerce sites. Thanks."
+Awesome video. Just subscribed.
+"AMAZING TUTORIAL --- QUICK Q
+
+Did anyone else have issues with the loop? I've been trying to figure it out but it seems to continue only printing (brand/product) for container[0]. 
+
+If I define each container (i.e. 1 or 2 or 3) before running the loop - it changes the outcome accordingly, but still only prints for the one container.
+
+Any advice?"
+Thanks a million for this video !
+Great Video man!!
+"I love excel, now it's time to add python into it :) as a programmer I am used to semicolon :( sad I hated it at one point XD"
+"Is there a better way to find a specific item than Find / Find All? Searching text this way isn't efficient, especially if it's already been processed and extracted into an array or a list. Is there a direct way to get at each element, e.g. by the [""TagType""] or another indexed way? Also, you should show how to extract the price :-) Finally, there's no word ""deliminated"". Thanks!"
+THANK YOU SO MUCH FOR THE GREAT VIDEO!!
+"I like it so much, thank you :)"
+"Subscribed, Thank you very much you are awesome"
+"Well done, Keep on going :D"
+What about bypassing Captchas on websites?
+"I'm surprised the final excel doc didn't have a column for prices..? I only skimmed the video, but I should be able to add a ""price"" column for my own purposes. If you went over this in the video, let me know!"
+"it was fun, really enjoyed it!"
+Really awesome tutorial 1+ suscriber
+"what if I need to get the second div?
+because the html consist of multiple ""div"" in the ""form"", each with different ""id"" or ""class"""
+"great video
+we want more"
+BEST Tutorial I have ever seen <3
+You are a badass sir! Thank you for the tutorial.
+"File ""newwebscrapper.py"", line 36, in <module>
+    brand = make_rating_sp[0].img[""title""].title()
+TypeError: 'NoneType' object is not subscriptable"
+AMAZING!!!!
+This is so awesome! I feel powerful on the internet :P
+THANKS A LOT. How does this compare to using  miyakogi/pyppeteer ? Can we use BeautifulSoup for Amazon? I have read we must use pyppeteer for that. Thanks
+Basic question: Is that legal? Can you do that without owners permission?
+hi there - great stuff i am overwhelmed - one question - what if i run this code today - is this doable?
+"that is the best tutorial iv'e ever seen, keep it up, you are the best !!!!!!"
+Simple and Clear
+Amazing !!!
+"I love the video, make more"
+I Enjoyed watching it bro. do more
+"So I'm using ""containers = page_soup.find_all(""div"", class_='modals-container') and no matter which synthaxis I use, it's always giving me zero. Any solution?"
+Thank you so much !
+"Great video and thanks for walking through the process of figuring out how to extract the specific values, most tutorials and video just skip over that important step.
+
+What are your thoughts about using XPath vs. beautifilsoup? 
+It seems to me that XPath would be easier because you can copy the XPath to the field directly from Chrom (right-click)."
+"Great teaching method! First I've seen to actually demonstrate ""visually"" parsing html code and python coding the result. Your testing method is also very helpful. Thanks!"
+Thank you for a good video
+That was one of the best web scraping tutorials I have ever seen.  Went step by step through the process of how to determine tags and classes.
+This was AWESOME
+"Thank you so much Phuc!  This was incredibly helpful.  I've never used html, sublime or Beautifulsoup before but you made it really easy to follow."
+This was amazing.  I went from not knowing a single line of python to extracting 5000 data objects from a local website today thanks to this video.
+"Why do i keep getting ""  File ""<stdin>"", line 1, in <module>
+TypeError: 'NoneType' object is not callable"" 
+for  page_soup.findALL(""div"",{""class"":""item-container""})?"
+Wow!  I'm a total programming novice and this tutorial totally made sense.  Great job and thank you for posting!
+"Any one can tell,  how to find number of occurrence of a particular word in a given website using python beautiful soup..."
+"Thanks for the video!! I have no prior coding background but I'm doing a similar project as coursework. The video saves me!
+I wonder instead of scraping info directly from the graphic cards, can I actually include ""urllib2.urlopen"" in the loop so I can open that graphic card and scrap details for individual web page?"
+Best tutorial on the web.  Perfect pacing and great teaching.  THANKS!!
+Awesome!!
+"Hey Dojo, great work and very nice explaining pace. 
+Your script runs smoothly, but i get an error when trying to write my results.
+(TypeError: coercing to Unicode: need string or buffer, ResultSet found).
+No solution found in stackOverflow unfortunately. Any idea how to resolve this issue?"
+"9:00 Could have just called ""page_html[:100]"""
+"Thanks so much for this tutorial, you really have an awesome and understandable way of teaching!!"
+"Great Video really helped me, it would be good if u could do more videos on web scrapping and using the data for analytics with python"
+"I'm having trouble. I've installed anaconda, but when I access the command prompt and I type 'python' it returns an error. I also cannot find the ""webscrape"" folder you are using, and if we have to make it, why did you place it in downloads? Also, when I shift-right-click it asks me to open the powershell which also returns an error."
+"liked, subscribed, added to playlist. 
+
+Thank you Data Science Dojo.
+
+After months of searching, i found the one reliable source i can count on.
+Not only you did not waste time, but you were able to explain in a way , someone without a CS degree could undertand..
+
+Thanks alot"
+AttributeError: 'NoneType' object has no attribute 'a'
+Best tutorial I've found so far. A further video to scrape several pages would be great!
+That was awesome. You are a great teacher and a pro!
+how to select a date in a datepicker on a webpage using python?
+"Awesome video, awesome content, extremely useful.
+
+Perhaps you could put your source-code in a github repository or something like that for those of us have trouble following along at your speed?
+
+All the best & thank you."
+"At 19:42 when he did 'container.div', all it showed for me was this: 
+
+<div class=""item-badges"">
+</div>"
+"Thanks man! great tutorial, I learnt quite a lot!"
+This for me has been without a doubt the best tutorial for Web scraping. Extremely well presented and clear. Thanks.
+Such a great video!
+Nice! This is so comprehensive. Thank you!
+Nice tutorial
+Nice video ! You explained so clearly which is rare for programmer video. Keep it up
+"Hey man thanks for the video now you make the whole internet as my database! I learned this to grab some word-meaning-detail such as example sentence, synonym, antonym and sh*t from a dictionary website for my GRE word list. Solved my tedious task and make me learn new super power!!!"
+"Hi tanks for perfect tut about bs4 , i just a question about how i can login to web site and crawl the page some web sites need to login to access data . can you tell me how can i do it???"
+"Hi DataScienceDojo, great tutorial! i've been following your tutorial and testing out some URLs; some of them are throwing a 403 - Fastly Internal error... any idea why?"
+"when I type container.div                       it  actually print <div ""class=badges""> in the terminal.  Could you teach me how to fix it?"
+"Although I am not completely through watching this video, you are very helpful and fun to watch Thanks!"
+"Awesome stuff! The big take away for me was how you wrote it into a CSV-file.
+
+I have a prayer for a video:
+Can you please make a video on how you can run a script automatically every day? For example how you would make the script you made in this video, run every day at a certain time to collect the data? 
+I have tried cron, but i haven't got it to work yet."
+Excellent video
+Excellent Video! Easy to follow & works well!
+Thank you now I can start with with scraping
+This video is incredibly informative. Thank you so much.
+"Great video, I hope to see more Python stuff!"
+This is so much fun!
+"That was extremely helpful, thank you!"
+"BeautifulSoup Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+is anyone facing this problem ?"
+"Great video, you should do more videos like this"
+Amazing Phuc Duong! Could you do a tutorial on handling data updated by JavaScript and AJAX? I keep coming across different values.
+"Thanks , liked it."
+"Thank you very much, this was an excellent refresher video!!"
+Amazing Video!
+Thank you for this video... How can I insert a loop statement into  this code (for url pages) so that each page of the website is scraped and how do I include the try statement on this code.. so that fields that doesn't have the keys will show?
+"This was just great man. however , there are sites with dynamic stuff loaded by javascript which is what bs4 wont see but selenium will. I have heard of guys using Driver.Page_source() to push the full content including javascript loaded contents to bs4 and then parse it. seems to be faster that selenium alone. if you can make a video using this method , and instead of guessing the URL , interacting with the page , clicking buttons to go to next 60 items found for example . than parse in bs4 , it will be extremely appreciated."
+"YOU ARE THE BEST, THANK YOU SO MUCH"
+"Very helpful, thank you very much!"
+"If I type 'Python' on the command line, it just asks me to download Python from Microsoft Store. Note: I have already downloaded and installed anaconda as instructed."
+"Really awesome video!!!  Hope you do more Data Science and Web Scraping videos.
+
+One question I do have, is there way to automatically run that script daily without me having to call the program?  So take the example you show, I want to check what they have daily and save it in a folder with different date."
+This was so helpful! Thank you
+"I have a webscrapping use case which I need help with - 
+So, I have a list of blog posts that  I have written on a particular website, I was to scrape them all and put it on my portfolio website (my personal webpage), I want to automate this I mean embed the webscrapping script in my portfolio website's html so that everytime I write a new blog on that site my portfolio webpage gets appended for the list of blogs I have written. How do I go about? I don't think the CSV way works"
+"This helped me scrape craigslist jobs, pull out specific jobs and open the webpage to that job...Your work in action! (Used excel and vba to do the latter, but working on a python variant)"
+Radical! thank you
+Superb video. Very helpful.. Please make more like product analysis through customer sentiments.
+"TQ with good tutorial. 
+
+But for me, still the best is preg_match_file using PHP because you can grab between code
+
+preg_match_file(""@front code.?*end code.si"",source,output)"
+Fantastic !
+"Very good information, and easy to follow. One question, what I'm looking for is to scrape all pages within a domain. Pages are all formatted the same, so basically wondering if there is a way to create a loop that will scrape all subdomains, rather than specifying exact URLs. Using the example of New Egg, rather than scraping a single page (or set of pages, /2, /3 etc) it would search all pages within the newegg.com domain. Hopefully that makes sense."
+Awesome!
+"Fantastic Tutorial !
+Thank you"
+Fantastic work keep doing it  man
+"i follow step by step but it not works with me i have this error 
+ File ""webscrap.py"", line 22
+    product_name = title_container[0].text
+                                         ^
+IndentationError: unindent does not match any outer indentation level"
+Thank you for explaining the syntax as you went along.
+"Sorry in advance, I am not an expert, I am looking for help. I have followed this code to the ""t"". 
+
+Instead of graphics cards I am pulling from AMD Ryzen processors on Newegg of which there are 20 in the search. When I input containers and findAll then check the length I do get back ""20"". 
+
+However, I am stuck at trying to loop through and output all 20 items. Each time I go to print (brand, name, shipping) I only receive the output for the first item. I have watched the video over numerous times and have matched the 'for container in containers:"" loop and outputs exactly. I have tried removing the '[0]' from product name which then produces an error and instructs me to use find instead of findAll, I have done this as well and it still only outputs the first item. 
+
+I have looked through a ton of these comments and not found and answer and I have looked at StackOverflow and not found an answer either."
+Amazing tutorial! Which brings me to this question. You see how you pasted all the info into excel? Is it possible to paste it into another website? Let's say website 1 is where I gather all info(I want to find 200 listings) to search then Website 2 gives me Photos + more info(of 200 listings) and now I want to copy and paste 200 of those specific text or photos onto website 3. Can I use the same coding in this tutorial to accomplish this or would I need some additional module or something? Thank you for your wisdom.
+awesome!! learned a lot
+"thank you my guy, you rock!"
+"hey the tutorial was cool
+really learned some stuff
+keep doing such videos"
+why not just use a web crawler? can do all this with some very minor configuration and one button click
+I understood very little of this but I watched it all the way through; very interesting.
+Very good video. Bravo!
+"So, if I type in containers[0], does it give me every single codes for this class (item-container)?"
+very educative mate - Thanks
+"brand = container.div.div.a.img[""title""] does not work anymore.
+I tried alt as well and it doesn't work. Anyone know how to fix this?"
+At the 28 minute mark how did you manage to copy each of those terms. I'm in pycharm and shift didn't work for me. Nice video by the way as well. I'm looking to make a bot for certain products
+Very Nice Video!!!!!!!!!!!! Thanks...Request to upload more Python videos..
+loved this tutorial and it was super easy to understand. Couldnt help but laugh when i saw rape.py at 31:57 haha
+"For those who are wondering what you could do to get the price and other things that some containers don't have, you would you the try: and except: commands."
+"i love this so much, i was just checking out what webscraping is but HOLY MOLY THIS IS SOME BROKEN ASS ABILITY"
+love it !!
+"hopefully you read this soon, when i try to do page_soup.h1, or anything, it says:
+ Traceback (most recent call last):
+  File ""<stdin>"", line 1, in <module>
+AttributeError: 'tuple' object has no attribute 'h1'  
+if you know how to fix, please lemme know"
+Can I use this to scrape business info from Yelp for all California restaurants? Or do you recommend using API?
+"Anybody know if you can use wildcards when searching through the HTML tags for particular words? Like say he only wanted to look for 10 series GPUs can you state only grab ""10**""? Or is there a more elegant solution to that?"
+"Ok, I followed through and reached that magical moment when I'd put in the name of my script in the console, AND:
+
+Error messages all over the place...."
+"When I open the command line and type python, I get, ""'python' is not recognized as an internal or external command,
+operable program or batch file."""
+"I've successfully been able to set up my web scrape but my only problem is that every time I run it, it dumps the data into my excel sheet a million times. As the code runs on my command prompt it shows that the data is collected only once, so I don't see it it's collected numerous times on the excel sheet... Please help!"
+I have a question. How to web Scraping with a lot of pagination? Please give me a solutions. Thanks.
+"This was one hell of video , thanks"
+"Good one , thanks"
+"Excellent, God Bless You."
+EXCELLENT VIDEO!!
+"Hi, For me the issue is, i can't write headers to excel file.."
+"python gives syntax error for ""for containers in containers:"". Anyone have a suggestion as to why this is happening? Thanks in advance."
+"hello, found this video very helpful to the most part. Im a complete bot with python and im just learning it. the uClient keeps coming up wit herrors can anyone help?"
+amazing!!!
+"Some people don't get it, but being able of doing this is fucking awesome."
+"wow,  i love this, wow thank you"
+"Man, you are awesome! :)"
+"i take its an example ,when iam doing it showing len(containers)is zero . can u pls  give me the solution"
+Use conda instead of pip when using anaconda! (It's better anyway)
+This is great
+"Urgent question! is it possible to click on a ""show text"" button before scrapping data from a given url? how do i do that?! please help =("
+"Having problems in this line
+brand = container.div.div.a.img[""title""] it comes back with the following error
+Traceback (most recent call last):
+  File ""/home/john/Documents/DATA ANALYSIS/video_webscrap.py"", line 33, in <module>
+    brand = container.div.div.a.img[""title""]
+AttributeError: 'NoneType' object has no attribute 'a'
+
+
+Thank you for your input!"
+What if it's on a different page? Do I have to run it again
+23:02 that sound when you do the coma :D Very good tutorial! Thanks a lot!
+Great video fam!
+"what does container[0] do here exactly, why we take index as 0 not any other number?"
+You're amazing!!!
+"I'm bummed, this looks so simple but I keep getting an error on this part:
+
+from urllib3.request import urlopen as uReq
+Traceback (most recent call last):
+  File ""<stdin>"", line 1, in <module>
+ImportError: cannot import name urlopen
+
+Any idea how to fix?"
+The solver mind is amazing 
+"This is the closest I will get to hacking ...lol
+Nice tut , thanks"
+very useful video....thanku
+"You know that there are beautify/prettify html/css/js plugins for Sublime, right? Why would you paste it into an online beautifier when you can just use a hotkey in Sublime??"
+"Happily subscribed, thanks for sharing!"
+"Hi, could anyone give me a hand on this? this line: brand = container.div.div.a.img['title'], throws this error: 
+Traceback (most recent call last):
+  File ""C:/Users/nelso/PycharmProjects/Scrapping/Scrap001.py"", line 23, in <module>
+    brand = container.div.div.a.img['title']
+AttributeError: 'NoneType' object has no attribute 'a'"
+how do you avoid being blocked by those websites since you're scraping quite often?
+"I am trying to data scrap on yahoo finance. 
+I am facing an error ""Index out of range"" while trying to pull the data from the right end side of the site which gives the company details and description.
+period = soup.find_all(class_=""D(ib) W(47.727%) Pend(40px)"")[0].get_text() 
+Please help me to resolve this issue."
+"I know, 1.3 million viewers do not lie, but for me the video would work better if the code would be visible throughout the video - as half screen view."
+"nice, this is awesome."
+"I recommend checking Corey Schafer's web scraping tutorial first and then come back to this project, you'll finish it quicker."
+A ton of gratitude from here!!
+"i'm newbie. please help me how to fix ' line 216, in init 
+    % "","".join(features))
+bs4.FeatureNotFound: Couldn't find a tree builder with the features you requested: lzd.parser. Do you need to install  ' . I tried to install the parser but failed. I am using python version 3.6. so thanks you!"
+"That 'https' in your browser prevents your internet service provider from collecting a lot of valuable data, although they can still collect the addresses of your visits. I predict a global browser add-on that collects anonymous website data such as product prices and reward the users in some fashion. And think hard about the add-ons the already you have installed, by virtue of their permissions have the capability. For example, those recent ad-blocker ads, that would be a great scrape tool unless they run you out of data on your phone."
+"I'm trying to web scrap weather station, but I don't have numbers in my HTML code...? Continuously messing the value of the actual temperature. Any tricks?"
+best teacher ever
+I love your energy
+"HELP:
+shipping_container = container.findAll(""li"", {""class"":""price-ship""})
+    print(shipping_container[0].text)
+
+Traceback (most recent call last):
+  File ""scrapper2.py"", line 19, in <module>
+    print(shipping_container[0].text)
+IndexError: list index out of range
+
+so there is no object 0?
+because when i do this:
+
+shipping_container = container.findAll(""li"", {""class"":""price-ship""})
+    print(shipping_container)
+
+ASUS TUF Gaming GeForce GTX 1660 SUPER Overclocked 6GB Edition HDMI DP DVI Gaming Graphics Card (TUF-GTX1660S-O6G-GAMING) 
+[<li class=""price-ship"">Free Shipping</li>]
+
+i get that result. How can i acess the text inside the li tag ?
+Obviously i want: Free Shipping"
+I loved this so muchhhhhh !!!! ^^
+Is the file products.csv should be created prior to writing the code ?
+"Nice Tut as it goes, kudos."
+I have no idea what happened but I enjoyed it...maybe I should learn Python.
+Is it possible to scrap facebook with this Soup thing? Having in mind that facebook doesn't load all the information at once on it's timeline.
+This just saved my life <3
+It is a good tutorial yes :)
+Brooo this is so sick thank you!!!
+AMAZING
+awsome web scrapping tutorial
+Bruh. Why do you only have less than 50K subs. You deserve millions. Thx dude!
+good stuff. Thanks
+You should publish on pluralsight
+What a legend!
+ thanks a lot
+This is epic
+"Need Help:
+I am scraping a web-page for all the anchor tag links. I want to find the link at nth position from the first link on that webpage and then access the nth link. How do I do it?"
+"I learned a lot in this video, however, your erratic back and forth, short-handing stuff, and glossing over things quickly made it very hard to follow. I can't tell you how many times I had to pause the video and back up a few seconds to see what you did. 
+
+For example, in the first section on sublime text, you state you type in ""set syntax python"" and before you finish typing it out, you backspace and start writing something different and hit enter before you finish typing it. You were just short-handing the statement to ""Syntax Pyt"" but I had to back up and read what it was saying because your actions were different than what you were actually saying you were doing. 
+
+When you were copying and pasting things and quickly going back and forth from the console to sublime text and it was confusing to follow you that quickly and make sure I had everything written correctly.
+
+Otherwise, keep up the good work. Thanks!"
+"this is badass, seems easier than
+ cheerio and request"
+"after i complete the following code: page_html = uClient.read()
+
+i get the following error: ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host.
+
+anyone know how to debug this?"
+"We loved it babe,thanks!"
+Ok Now I'm stuck. I'm trying to pull data but a specific data has several sentences in it. Now I'm getting result where the sentence breaks up and is spilling into the next csv cell instead of keeping all the text in one cell. How can I make sure the stuff stays together? I tried .split() and few others but can't get it to work.
+"Drinking Game : Take a shot everytime he says M'kay. 
+
+PS: Thanks for the great video <3"
+I really dont know what's happeningbut still want to learn this kind of stuff.
+"<option data-formated='&lt;span class=""price""&gt;AUD $100.08&lt;/span&gt;' data-qtyid=""qty-219"" value=""1"">
+                                        Unit Price                              </option>
+
+
+how do i get AUD $100.08 out of this?"
+"the black and green cmd with a massive font makes stuff harder to read and follow. 
+you probably want to make it easier to follow within a video, but it does the opposite"
+Great video
+This was so fun!!!! Dzamn
+"31:40 - ""Deliminindated"" RIP
+
+Thanks for the vid mango"
+Best tutorial
+"Killing me. I can’t tell you how many vid’s I’ve watched in the last 24 hours on Raspberry Pi, Linux, etc... where the narrator / tuber, slowly covered things like “This is the box”, “This is me opening the box” while I was screaming at the monitor, “Seriously dude, seriously?”... Then I choose a somewhat more complex topic, significantly, and I get “Larry The Coffee Head” speaking as fast as my daughter when she flips out, scrolling like a madman, flipping back and forth between command line and shell and web page, with hardly a breath in between the elements he’s describing. Dude, so far? Great stuff but MY GOD PLEASE SLOW THE HELL DOWN!  Thanks for the effort, I’m way ahead of where I was before I pressed play, and I’m glad you aren’t monotone going through insane details like, type this line, then hit enter. But there is a common ground in between. Please seek it. Thank you."
+How do I data scrape a site that requires sign in first before you can access infos?
+"dude was being chased by a cheetah, great content btw thanks a lot"
+"So, I see Superman is alive and well. GOOD JOB!"
+Does anyone else get this error: `urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate` while running the `uClient = uReq(my_url)` command?
+"Everything is great just the voice, bearing it"
+"Hi I keep getting this error please help
+TypeError                                 Traceback (most recent call last)
+<ipython-input-5-76a3a66d2039> in <module>
+     23 
+     24 for container in containers:
+---> 25     brand = container.div.div.a.img[""title""]
+     26     title_container = container.findAll(""a"", {""class"": ""item-title""})
+     27     product_name = title_container[0].text
+
+
+TypeError: 'NoneType' object is not subscriptable"
+Does python understand plural or something? He never sets a variable for container.
+Do you have a video that shows how to program a bot so I can scrape a webpage that's behind a login-esque wall.
+I’m using a Mac to scape data from a html page that I’m needing to bring into a Honeywell Tridium Jace. Can you show how to do that?
+"I did container.div.div.a and got ""'NoneType' object has no attribute 'a'"""
+"Maybe try to explain things a little bit more. By the way, great video!"
+"containers=page_soup.findAll(""div"",{""class"": ""item-info""})  
+print(len(containers))
+
+these two lines are not giving back the list of item, print statement is giving 0 instead of 12. why is that..???"
+What if i don’t have excel ? Is their another alternative I can use? Thank you
+"i cannot loop the variable  inside the container 
+any ideas?
+here's my code
+containers = page_soup.findAll(""div"",{""class"": ""item-container""})
+container = containers
+ 
+brand = container.find(""div"",{""class"": ""item-branding""}) <<<<---------------------------------- container is asking for [] , but how can i loop this
+model = brand.a.img[""title""]
+ 
+print(model)"
+Where is the documentation for this?
+Does it works for Dynamic web?
+Thanks pal Just what i need can i do the same and save the data on a database
+So I have question whenever the sites update it's info will the code work and show us new results?
+THANK YOU!!
+"I just use lxml, because more faster and stable."
+"Doesnt this work with google.com search results? I wanted to work with google shopping link from where I could fetch images and data.. but its giving me error as ""HTTP Error 403: Forbidden"""
+"Since u installed anaconda, Y dont u use one of the  many IDE´s avaliable there ?? I guess spyder is the most conftable in the set..."
+Does it really have to be anaconda? Can't I use a regular python for data scraping?
+Sir I need learn web scraping in php please make some video
+When I do the length of the containers it says zero. Can someone help
+"when i save the script- its giving me an error. for price shipping its saying - ""inconsistent use of tabs and spaces in indentation""
+can someone pls help"
+Great!
+Wow thank you very much
+why do I always get an empty list when doing the findAll function? Even though im trying it on the same Website? I just don't get it
+"Thank You So much 
+u are awesome <3"
+"Really I m so match happy, thanks for you"
+it says python is net recognized as an external or internal command in the command prompt
+"keep going mr Phuc, làm video dạy mình cách lấy coupons and deal của các site lazada, shopee, tiki đi anh, tks a"
+How to get data with pagination? Not only in a page but in page 1 2 3 4 5.....
+"I keep getting 'return codecs.charmap_encode(input,self.errors,encoding_map)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\xae' in position 104808: character maps to <undefined>' when I try to run the script in the cmd.
+
+Do you know what the souce of this problem might be?"
+great video! I raised the view count by 500 after spending hours scraping videos from youtube LOL
+How can i use web scraping in Android Studio?
+sir any chance for instagram daily posts directly importing to our html site with any tool
+When i type in python it just says python is not regonized as an internal or external command. Same with the 2+2
+Can someone post their final script code please? I got lost because the code doesn't work anymore in this video.
+"On 26:29,  why those return and new line shows up, but when I tried it myself it didn't?  There's no \r and \n in the html but it shows up in his command line. I'm a beginner so I might missed something"
+"could you upload the script?
+What about this scrip yellowpagesspider.com"
+"UClient = urlopen(LINK)
+
+ERROR :raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden"
+THANK YOU SO MUCH
+Can You do price of gc - because have only sheeping costs ;)
+Fantastic Video
+"python: can't open file 'filename.py': [Errno 2] No such file or directory
+for some reason, im getting this error while running it"
+"At 26:48, free_shipping[0].text takes the ""TEXT"" out of tag. How do the same in case of numbers??"
+This is so cool
+"didnt work even after copy pasting the code. first the html code wont parse and it onlz returns a big one string line of html and then when i try to write to the csv file it wont give me permission to write to csv. then, i changed to ""with open"" and tells me that it cannot be done as im trzing to add non descriptible objects"
+Please requests library instead of urllib if possible. Its easier I guess?
+Its good but too complicated !!
+after i type page_soup.h1 nothing renders.. anyone has advice?
+"doesn't work with amazon though, error msg says HTTP Error 503: Service Unavailable"
+Great video ..
+Great Video <3
+how do you open a command prompt for Mac OSX users?
+"I got an error in coding, IndexError: list index out of range I wonder why? can someone help"
+Im using a website which updates as you scroll down the website. This causes me to only get 20 objects instead of the supposed ~200 that exists. How does one solve this?
+"Ok, yeah, I'm a rookie --- getting an error when I type ""pip install bs4"" --- what to do? Thanks"
+Could my IP get banned if I try this in other websites? Great tutorial
+good stuff sir
+"Your solution for brand doesn't work for me... Maybe this site has changes a bit... here's my solution for it
+
+
+brand_container = container.findAll(""img"", {""class"": ""lazy-img""})
+brand = brand_container[1].get('title')"
+"Top Video
+Thanks for sharing"
+"So unfortunately I'm getting the message HTTP Error 403: Forbidden
+According to RFC 7231: The 403 (Forbidden) status code indicates that the server understood the request but refuses to authorize it. Is there a way to get around this?"
+"I don't think this code is correct. To my understanding, you've written ""container"" instead of ""containers"" in lines 18, 21, 23. Please let me know if I'm wrong."
+"Data Science Dojo Çok Hoş Duruyor, Hemen Kendim Denemeliyim..."
+perfect
+Oh My...how long does it take to get to this level?
+brilliant.... no wonder u guys lead in IT
+Awesome
+After scraping how I can implement in flask
+"I get an syntax error when I put the ""pip install bs4"" in the cmd"
+I am using python3 and I am getting error urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1108)>
+thank you sir
+big thanks i can recomment this vid 10/10! youre a g
+"I already installed anaconda but when I type 'python' why does it says ""the term python is not recognized as the name of the cmdlet...""?"
+"Why does my command promt doesn't recognize python and I looked further and I discovered cmd.exe promt inside anaconda where it runs python perfectly but when I do pip install bs4, it doesn't again recognize, it says File ""<stdin>"", line 1 pip install bs4 error invalid syntax. Please help :( I can't even start this whole tutorial"
+"I ran the python code and got an error: IndexError: list index out of range.
+
+It occurred when at:  brand = make_rating_sp[0].img[""title""].title(). 
+
+How do I fix this?"
+How can I scrap all reviews brandwise from Amazon page?
+"I went through this problem. Does anybody have any idea, thanks in advance!
+
+Traceback (most recent call last):
+  File ""C:\Users\NQG\Downloads\webscrape\webscraping.py"", line 18, in <module>
+    brand = container.div.a.img[""title""][1:]
+TypeError: 'NoneType' object is not subscriptable"
+i like your content.
+"please help me.
+Save as csv but only 1 column !!!
+How can I make 3 columns?     [32:44] [minute,second]"
+Does anyone know how to download beautiful soup or python requests
+You are perfect.
+Awesome man
+"i would love to do this, it’s super useful to me right now, but is this legal?"
+"when i do the print, all the data puts at large on A, why is not printing on excel the data on list?? anyone knows??"
+"I am trying to scrape a website with but the ""url"" i copied from the site is not returning any item, what could be the cause. (' https://www.konga.com/category/macbooks-5249 ') That's the web_url.. Thanks"
+"glad to know you are VietNamese, tieng anh gioi lam bro :)"
+"Is it normal that when I call uReq, for 90% of URLs it return an error?"
+what if i want print only 15 link that i scrapped?
+awesome intro @dojo
+I suggest to make video with pandas and API.
+enjoyed. thanks
+Unable to get shipping? what should I do?
+"I've encountered problem with the user agent but I was able to solve that by specifying a fake agent. When i reach the page_html step where it sets the html.parser, then I couldn't read anything from any elements like h1. Nothing gets return.Then  I change my url to the one this video shows, the h1 was returned. What is possibly the problem? Could it be the https page that I am trying to request from? Please help :("
+"URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1108)> 
+
+I can not open the URL "
+"i just can say ""thank you sooooooooo much"""
+"why am I getting this error?
+ brand = cop.div.div.a.img[""title""]
+TypeError: 'NoneType' object is not subscriptable"
+"unfortunately i found this error when calling the html.parser. the error is "" bs4.FeatureNotFound: Couldn't find a tree builder with the features you requested:  html.parser. Do you need to install a parser library?: how to solve this error????"
+"I got a 403 Forbidden error, was wondering if anyone ran into the same thing?"
+"I have question , for each command I created , there is an error ( not found) , how I can solve this?"
+Perfect...
+No need for terminal in sublime ctr+b with run it like the terminal
+"When I open excel it puts all information in one row, how do I solve this?"
+"What can i do if i got hit with this error , urllib.error.HTTPError: HTTP Error 403: Forbidden?"
+Very nice….
+great video but why so zoomed in on text? i legit thought this was at a conference or something for the first half
+Thanks for this 
+i really enjoyed it ...thx ubro
+Nothing different if I use Visual Studio Code to write the script?
+when I tried to do uclient.read it came out as an incomplete read . what do I do
+great vid
+my urlopen('url.example') runs indefinitely and thus never executes uClient.read() - how can I solve this?
+Thanks you are TOP
+"Hey is it possible to scrape more than one url in a single script, or do i need to make new scripts for each url"
+My findAll functions keep returning empty brackets for some reason.
+Thanks for this
+Grest video.  I can do it in pinterest to pin an image . Can you to learn how to do it? Thanks
+YADAV JI LIKED IT KEEP UP THE WORK LODU
+"when i write 
+page_soup = soup(page_html, ""html.parser"")
+its giving me error"
+youre awesome!!!
+"in 21:51, there is no container variable, how its running?"
+BESTTTTTTT VIDEO!!!New subscriber!
+"product_name = (container.findAll(""a"", {""class"":""item-title""}))[0].text"
+Thanks a lot
+Thanks very much
+: can't find '__main__' module in '' I don't undertstand this error when building. In my command line on windows it gives me an error just importing the request. HELP
+im only at 4:40 and I am getting an error 'ImportError: No module named request' im running python 2.7 in anaconda. Any suggestions?
+Pls do web scraping on steam community reviews
+"what does he press that he gets from?
+ >>> 
+^C
+C:\Users ~~~~
+I always get SyntaxError: invalid syntax or SyntaxError: unexpected character after line continuation character"
+is this applicable in 2021? Because I learned how to do it with the request library not the urllib
+"if I get stuck, would you be able to guide me please?             { as i am really stuck with my code  :)        }"
+Great!
+27:00 multi line editing
+thanks!
+thanks !
+"I already come across a problem: when opening CMD and type in the 'pip...' part, the output says that pip is not recognized... Anyone?"
+"bro you are the best
+
+
+Crazily good vid"
+"Can anyone help me out!
+I did not get the urllib package but got urllib3 and Request module on that. Now the problem is, there is no urlrequest function in tha module. What should I do. Thanks"
+"My containers comes as empty , the website has some weird class names with spaces. I wonder if that's why i can't populate my containers."
+awesome
+"Can someone please help me, my one only returns a single result, it doesn't loop through all containers?"
+Why is the CVS file an excel file?
+awesome awesome video ...
+bhagwan aapka bhalaa kare. God bless you :-)
+what should we if span class is not present?
+"Hello, am I the only one blocked by ""incapsula Robot"" at page_soup.h1 ?"
+"I am getting many errors at the beginning itself from uReq(url) ,urllib error ,,,"
+"I am using Ubuntu, and following along in my terminal. When I do uClient.read() into my terminal I keep getting a error? The error is:
+ 
+Traceback (most recent call last):
+  File ""<stdin>"", line 1, in <module>
+  File ""/usr/lib/python3.8/http/client.py"", line 467, in read
+    s = self._safe_read(self.length)
+  File ""/usr/lib/python3.8/http/client.py"", line 608, in _safe_read
+    data = self.fp.read(amt)
+  File ""/usr/lib/python3.8/socket.py"", line 669, in readinto
+    return self._sock.recv_into(b)
+  File ""/usr/lib/python3.8/ssl.py"", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File ""/usr/lib/python3.8/ssl.py"", line 1099, in read
+    return self._sslobj.read(len, buffer)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+
+Where am I going wrong?"
+"Im having trouble installing Beautiful soup. Its just giving me SyntaxError: invalid syntax
+>>> pip install bs4
+  File ""<stdin>"", line 1
+    pip install bs4"
+"I'm using Ubuntu, for loop is not working only one container things are being exported to csv... any error would be?"
+AWESOME VID
+"hello sir,, i have learned Scraping from "" watched this video"" & successfully, its working.. but today.. i have faced a problem!!! sir, how can i scrap these kind of site ""http://ketchumidaho.org/BusinessDirectoryii.aspx?ysnShowAll=1&lngNewPage="". & rubi,php, etc"""" looking for your help!!!"
+"i am getting this error!!
+Traceback (most recent call last):
+  File """", line 41
+    print(brand:  + brand)
+    ^
+IndentationError: unexpected indent"
+"I've installed Anaconda and when I open the cmd and type ""python"" it says unknown command..."
+GREAT !
+I was doing a project to collect comment and posts from Facebook. Is there anyway i can scrap from there. need your help.
+thank you.
+After Uclient its not downloading the site pls help:(
+"this video was okay and i learned some stuff, but it was a pain to follow overall. variables were way to similar and hard to keep track of, and video was difficult to follow along because some code didnt work properly. kinda annoyed"
+thank u!
+good video
+Watch the Livestream for Web Scraping with Python and BeautifulSoup by Arham Noman now on https://youtu.be/rlR0f4zZKvc
+Anyone learning in this quarantine? 
+Thank you
+"Anaconda: I am a pretty big file, 500MB.
+
+My Offline Spotify: 27 GB"
+"brand = container.div.div.a.img[""title""]
+AttributeError: 'NoneType' object has no attribute 'a' 
+
+
+Can anybody help me solve this error?  Thanking you in anticipation."
+"containers = page_soup.find_all(""div"", {""Class"" : ""item-container""}) this is showing 0 item in this can some one help me out not getting any element"
+"how can i read a .txt file with a list like:
+juan
+pedro
+maria
+lola
+luis
+
+i need reed this file .txt from another file but read first the line1,then the line2,then the line 3 etc and when the last line come brake automatically"
+Rely getting confused by the first terminal then sublime approach.
+so we can't scrape image from the website and save it in excel?
+will i be able to get free books and mp3s from web sites that selling them?
+can we run this code also today  -  is this doable!?
+Great MAn!!
+"Help me :(
+
+from urllib.request import urlopen as uReq
+Traceback (most recent call last):
+  File ""<stdin>"", line 1, in <module>
+ImportError: No module named request"
+when i do len(containers) it outputs 0. Help..!!!
+"""from urllib.request import urlopen as uReq""     this lib not running why ? plzz tell me 
+i use ubuntu opreting system and run this code terminal
+and error ""ImportError: No module named request""    i install      'pip install request '     no solution  plzz u tell me solution"
+"hey buddy, whenever i am giving this --> container.div.div.a, i get (AttributeError: 'NoneType' object has no attribute 'a') please help me..20:32"
+Im very lost at 19:00 container.div.div.a does not work for me PLEASE HELP!!! container.div gives me item-badges
+"OK well 10:50, why did you simply type page_soup.h1 instead of print(page_soup.h1) and it still work??? why it didn't work on mine??? I must type 'print()' to print the h1 tags. I wasted 30mins trying to solve that problem..."
+He sounds like Tom Holland. Great video dude it's the coolest web spider tutorial!
+"it the website updates the prices, only need to run again the scrapper or not?"
+"""No module named 'bs4 '"" what should i do?"
+make an updated version
+Thanks! Idid a nice chart!
+"Using , doesn't create a new column for me... What I get is a single column with ""brand, product_name, shipping"""
+Please help cant exit the console with control + c
+i don't have the option to open windows command file
+great
+legend!!!!!!
+"File ""<stdin>"", line 1
+    imoprt urllib.request 
+                ^
+SyntaxError: invalid syntax
+
+how can I solve this issue help me this is'nt woking for me i'm on ubuntu this is n ot working but on windows this is working"
+I'm getting AttributeError: 'tuple' object has no attribute 'findAll' help
+thank you
+great
+Htanks bro... Beatiful
+3:30 install finished
+Nice
+U RE AWESOME! <3
+"1. when i shift right click in a folder it says open windows powershell not command window. ?????
+2. when I type ""python"" in cmd prompt and windows powershell they both dont work? I have python installed"
+"Oh, why in c++ is not so easy :("
+dude ur awesome
+the console doesnt copy the code into my sublime:( PLS HELP
+"It has been more than two years since this uploading. ""class"" : ""item-title""  is gone forever!  Any suggestion?"
+is it complete tutorial?
+"HTTPError: HTTP Error 416: Requested Range Not Satisfiable
+how can i solve this problem 
+plzzz guys help me"
+"There's no span tag after body on that site anymore. How did y'all ""iT's ThE bEsT tuToRiAl eVer"" repeat after him?"
+Thank You <3<3<3
+"marque = produit.div.div.a.img['title']
+
+
+GETTING THIS ERROR
+
+
+AttributeError: 'NoneType' object has no attribute 'a'"
+while entering from urllib.request open urlopen as uReg itsxshowing error of no module named request
+"Hey...... if u can read this i am getting an error while testin my urllib in cmd.... when in  call uReq on my url it gives an error saying HTTP 403 : forbidden...
+tell me what to do...."
+"im getting 
+python my_first_webscrape.py
+  File ""my_first_webscrape.py"", line 27 print(""brand: "" + brand)
+IndentationError: unindent does not match any outer indentation level"
+thanks for everything! 2020
+Tanks brother
+I like it ;
+thanks alot
+Prerequisite of this video?I only know basics of python.
+How do you resolve a incapsula issue it block my bots
+<33333333 ! thanks
+Loop is not working for me ... it only writing single data into file.
+the Shift + Right Click doesn't work in Windows 11. sad
+"lol, when a butt load of scrapers hit a website at once, DOS attack."
+За такой код пальцы ломать надо %) про подачу материала вообще молчу
+How did you open the cmd as admin.
+"Soup, WIne and homebrew"
+uClient = uReq(my_url) gives: urllib.error.HTTPError: HTTP Error 403: Forbidden
+"Doesn't work, I've typed this into cmd
+
+
+pip install bs4
+
+
+and  I get this error:
+
+
+python: can't open file 'pip': [Errno 2] No such file or directory"
+PermissionError: [Errno 13] Permission denied: 'NeweggWebscrape.csv'?????
+awesome
+Cool
+"i love you man! I Loove Yoooyyy
+thank you so much!"
+"Guys, its called windows power shell on newer laptops now."
+Thanks
+what about sas?
+cool
+indeed this is real soup
+thx bro
+do you have your own Youtube channel? :)
+nice
+uReq(my_url) does not work.
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+This video could have been <5 minutes were it not for pointless chatter
+I expected something better than this. You dived into a very specific example without any introduction on the set of tools or functionality that this library supports. SOLID dislike.
+Ty!
+why do you programm on your terminal?
+Take a shot everytime he says Ok
+"My program is not looping, any suggestions?"
+i did this and my computer freaked out
+"Running container.div returns me weird result:
+
+
+>>> container.div
+<div class=""item-badges"">
+</div>"
+sorry it's just really hard to follow with you when your speaking so quick :/
+good video but rushing through and not much explanation.
+"container.div.div.a.img[""title""]
+AttributeError: 'NoneType' object has no attribute 'a'
+can you help me why i am getting this error?
+i am using python 2.7"
+YOU ARE A GOD
+how to install bs4 in mac terminal
+i liked the tutorial but you have kind of weird energy up and down. I would hope if u have a constant voice...
+"Bout halfway through the video, started losing steam...half of the video is you saying, ""Okay"" and repeating yourself about REALLY simplistic things.
+
+Things you shouldn't be confused on after hearing it and seeing it once if you are trying to write code."
+"Bro use an IDE, that's cringy little bit"
+I got lost at downloading the program
+How can someone reach out to you? Like a DM or something??
+Didnt work on windows 10.
+"in the alternate universe 139132
+Data gaming- Trolling Fortnite hacker with my hacking skills"
+who's here trying to buy a RTX 3000 card
+"Saving the file as ""My first web scrape"", what a lie!"
+"""Sublime tect"""
+Dawg your the best
+It would of been better if you took your time to explain. It’s so rushed!
+I LOVE YOU MAN ~ ..
+and if it does error...
+is there a windows 11 tutorial because whatever hes doing my computer aint having none of it
+PyCharm?
+403 HTTP forbidden :(
+"really good tutorial, hummkay?"
+noted that your user's name is Phuc. Are you Vietnammese? Data Science Dojo
+Spend a quality time
+IT WAS SO FUCKING FRUSTRATING. I did it in Sublime text and anaconda just like he. And it didn't fucking work. i tried it in Spyder and it worked!
+"What do you do if you want to get data from a tag, but there are multiple of the same exact tag? 
+for example:
+<div id=""sortable"">
+     <td align=""right"">27</td>
+     <td align=""right"">30</td>
+     <td align=""right"">19</td>
+If i just want the second one how would I do that?
+If i use soup.find(""div"", id=""sortable"") it only comes up with the first one? What would i do if i just want the middle or last one?"
+"Hey man, love the video! I'm getting stuck on one thing and can't get past it.
+
+change = page_soup.findAll(""tr"")
+
+for contain in change:
+    coin_container = contain.findAll(""a"", {""class"": ""currency-name-container""})
+    coin = coin_container[0].text
+
+    percent_container = contain.findAll(""td"", {""class"": ""percent-24h""})
+    percent = percent_container[0].text
+
+    cap_container = contain.findAll(""td"", {""class"": ""market-cap""})
+    cap = cap_container[0].text.strip()
+
+    price_container = contain.findAll(""a"", {""class"": ""price""})
+    price = price_container[0].text
+
+print(coin)
+print(percent + ""%"")
+print(cap)
+print(price)
+
+With that, I'm getting this error:
+Traceback (most recent call last):
+  File ""webcrawl.py"", line 31, in <module>
+    coin = coin_container[0].text
+IndexError: list index out of range
+
+Any suggestions would be amazing. 
+Thank you!"
+"Great video. However, I can't get python to loop as called for here. I produce a csv file,  ""products.csv"" but it only has 1 record.  I did replace some code but I am sure that has nothin to do with it  as it worked up to that point.   That is to say I used what commenter Pyhna suggsted. In other words I replaced the section with "" container.div.div.a.img[""title""]  "" with  title_container = container.findAll(""a"", {""class"":""item-title""})
+ brand = title_container[0].text.split(' ', 1)[0]
+ product_name = title_container[0].text
+Please advise."
+"Thanks a bunch, helped a lot !"
+"There is a shortcut for findAll provided ;) You can just type soup('div', 'class':True}) or sth ;)"
+extremely helpful thanks a lot
+"I was interested to learn python scraping. Only from this video in YouTube how things working :D Now, I can build small scraper. Would you please make a video about python function with live example like this video."
+"Great Video Sir,
+Down below is the code (plz delete if not allowed)
+
+#urllib is a package, .request is a module, urlopen is a function
+from urllib.request import urlopen as uReq
+#if i call soup as a function gonna call a beautiful soup function within the bs4 package
+from bs4 import BeautifulSoup as soup
+
+
+# use the command line to check the validity of your code
+my_url = 'https://www.newegg.com/Video-Cards-Video-Devices/Category/ID-38?Tpk=graphics%20card'
+
+#Grab the webpage and download it, make it a connection
+uClient = uReq(my_url)
+#off loads this client into a variable
+page_html = uClient.read()
+#Since it's an open web connection u wanna close it
+uClient.close()
+
+# giving it a var so doesnt get lost.. we need to parse it --> WHAT DOES THAT MEAN?
+page_soup = soup(page_html, ""html.parser"")
+
+#grabs each product
+containers = page_soup.findAll(""div"",{""class"":""item-container""})
+
+#saving file in CSV
+filename = ""productsGC.csv""
+f = open(filename, ""w"")
+
+#Header for the file
+headers = ""brand, product_name, shipping\n""
+f.write(headers)
+
+for container in containers:
+ brand = container.div.div.a.img[""title""] #Grabs the thing that makes the graphic card
+ 
+ title_container = container.findAll(""a"", {""class"":""item-title""}) #finds the class
+ product_name = title_container[0].text
+
+ shipping_container = container.findAll(""li"", {""class"":""price-ship""})
+ shipping = shipping_container[0].text.strip()
+
+ print(""brand: "" + brand)
+ print(""product_name: "" + product_name)
+ print(""shipping: "" + shipping)
+ 
+ f.write(brand + "","" + product_name.replace("","", ""|"") + "","" + shipping + ""\n"")
+
+f.close()"
+Really good content! thank you
+is the easiest tutorial i have ever seen thanks!
+Love the passion n directly coding in front of me to solve the problem. Plz show say handling streaming  video or automatically alerting a price drop or how to write a bid sniper
+Just wondering your thoughts on whether or not web scraping is  copyright infringement?
+Nice tutorial. I have a question about web like (google) that know ban your ip if you send a lot a request for scrapping. How can we avoid to be banned by such web sites?
+This is the best I found on this topic. I also tried this to implement for Amazon but didn't get the products container although I was able to get the other informations. Probably I need to pass the header and post data for the same. Can you please help me out.
+Can I use Pycharm instead of sublimetext?
+"Sir, what does container[0] mean?"
+"Great video,  I am getting the following error:  ValueError: I/O operation on closed file.  any idea why?"
+Awesome! Thank you.
+"Excellent video. I am just starting with python. Taking a stab at this and I am stuck already. I get stuck right at the: 
+from urlib.request import url open as uReq
+raceback (most recent call last):
+  File ""<stdin>"", line 1, in <module>
+ImportError: cannot import name urlopen
+
+I am on python 2.7 is urllib something that I have to download and install? I already added Anaconda so I am not sure what to do here"
+How do you scrape data which is post loaded via JavaScript?
+"Hello, when i open my csv file i don't get the information divided in columns, i got it divided with "","" and i dont know why. I follow step by step of your guide. Please someone help me. Thanks!"
+"SOooo nicely explained
+thank u soooooooooooo much"
+"Nice tutorial, but could be shorter."
+"hi, 
+
+Does anyone know how i can access a second div rather then the first one. 
+
+example: 
+
+My container looks like this
+
+<div> 1<img> </img> </div> 
+<div>2.1<div>2.2 </div><div> 
+
+By adding container.div.div i am told there is no such container. I guess because i am accessing div 1 and in there there is no further div. 
+
+In the tutorial the the path was kind of straight and i have no clue how to get to my second div, so i hope someone can hep with a solution."
+"if you are getting
+Traceback (most recent call last):
+  File ""scrape.py"", line 21, in <module>
+    brand = container.div.div.a.img[""title""]
+TypeError: 'NoneType' object is not subscriptable
+
+its is because the line  brand = container.div.div.a.img[""title""] is looking for an brand image with the value of title embeded in it. some days/some products won't have a brand image and will cause an error, you can fix this by adding an if/else statement
+or you can reanalyze the cntrl+u like i did and use
+ brand = container.a.img[""title""]
+ brands = brand[0:5]
+to take first 5 characters of the large pictures id which seems to be consistent!
+
+thanks for the tutorial!!!!"
+"very good one liked and helped me a lot, help me with how to navigate pages on the url??"
+GREAT TUTORIAL!!
+"when writing data into .csv file, first data set comes in first row in different columns, no problems there but, 2nd data set comes in 4th row i.e. leaving a gap of 2 rows.can anybody help there"
+Hello everyone! Is this solution applicable for websites which are built with AngularJS?
+Thanks! this is awesome
+"Could you pass maybe code in .csv from video?
+Tnx a lot, bro =)"
+Couldn't find a tree builder with the features you requested: html_parser. Do you need to install a parser library?
+"I've encountered problem with the user agent but I was able to solve that by specifying a fake agent. When i reach the page_html step where it sets the html.parser, then I couldn't read anything from any elements like h1. Nothing gets return.Then  I change my url to the one this video shows, the h1 was returned. What is possibly the problem? Could it be the https page that I am trying to request from? Please help :("
+"I have tried this multiple times but it doesn't seem to work with https secured websites. Any ideas around this or how to fix that so that it works?  Example:
+
+>>> import bs4
+>>> from urllib.request import urlopen as uReq
+>>> from bs4 import BeautifulSoup as soup
+>>> my_url = 'https://www.lds.org/general-conference/conferences?lang=eng'
+>>> uReq(my_url)
+<http.client.HTTPResponse object at 0x10f733160>
+>>> uClient = uReq(my_url)
+>>> page_html = uClient.read()
+>>> uClient.close()
+>>> page_soup = soup(page_html, ""html.parser"")
+>>> page_soup.h1
+<h1><b>Not Available</b></h1>"
+i am having an issue trying to open the webpage because now it uses https instead of http as in the demonstration
+how to programatically enter text in a text field and submit using python?
+Can anyone type me some quick code on how you would loop this to grab more the next page of data as well. Cheers
+Great video!!!
+"you deserve my subscription by this video, take your thumb up and my subscription"
+Great video!
+can we scrap number of web pages and collect only text to collect keywords
+"When I am starting the code I get this: File ""C:\Python\lib\urllib\request.py"", line 570, in error
+    return self._call_chain(*args)
+What does it mean and how can I fix it?"
+"I have a simple question .......when v make an object page_hmtl it reads the page and saves in it...but what is it doing..when we r writing page_soup = soup(page_hmtl, 'html.parser), is this also reading the page and saving it...kindly explain if anyone knows..I am a bit new....so have more quesitons"
+Cool but how would i add a request header   in this example? The page i want to scrape just keeps throwing 403 responses back at me. It probably thinks im a crawler or bot and blocks me.
+"I didn't pick up on the part where you say ""product_name = title_container[0].text "" Why is the ""[0]"" there for title_container in our for loop?"
+THANKS A LOT!!!
+"its not seperating the data into seperate columns in the csv file, do anyone know why?"
+"import urllib2
+card = ""https://www.newegg.com/Video-Cards-Video-Devices/Category/ID-38?Tpk=graphics%20card""
+page = urllib2.urlopen(card)
+from bs4 import BeautifulSoup
+soup = BeautifulSoup(card, ""html.parser"")
+print soup.prettify()
+soup.findAll(""div"",{""class"":""item-container""})
+after this only 4 results are loaded (len(soup)) but in video there are 12, what am I doing wrong here?"
+"Hello everybody, in my excel file I did not get a separation of columns. somehow is all information in one column. Did somone else had this issue? Thanks in advance!"
+I can call the page_html = uClient.read() code on the newegg website but when i try other websites i get this error: ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host . And yes i have http:// not https://
+That was quick but very good...
+"Yeah, I enjoyed the video so much. Thanks"
+"Hey guys, my Sublime is not automatically gathering the commands. Does anybody has a clue why? Thanks so much in advance :)"
+awesome!!
+Thank you!
+"Wow!! You are great!!
+Please make more videoooooooosss
+Pleeeeeeeeaaase!!!"
+Really Superb Video
+Is there a tutorial to scrape YouTube? To Make a backup of everything?
+THANK YOU!
+"Love your video, but for future reference, could you speak a little bit slower? ;) For those who are not proficient in english your rate of speech makes your tuts incomprehensible."
+"gr8 work ,........excellent....
+add some more real world  examples ......."
+When I put uClient = uReq(my_url) I get a bunch of errors. Please help.
+"I have that kind ofa problem with opening the file
+
+  File ""my_first_web.py"", line 23
+    shipping_container = container.findAll(""li"", {""class"":""price-ship
+
+IndentationError: unindent does not match any outer indentation level"
+Very nice video
+"I ran into error on this line of code 
+page_soup = soup(page_html,""html_parser"") 
+I have python 3.5 and I was able to install bs4 without error
+Anyone, any ideas ?"
+Really Very Nice
+inspect element by pressing f12 key
+solid video!
+"EXTRACT ALL THE EVENT DETAILS FROM THE FOLLOWING START URL
+start_url : http://allevents.in/new delhi/all
+How to do this using scrapy? Is there any experts in scrapy who can help me out?"
+"It dosen't work for me, when I install Anaconda and open the prompt and type ""python"", it says there is an error! Can someone help?"
+Why don't you use scrapy?
+AWSOME VIDEO!
+"Traceback (most recent call last):
+  File ""my_firstwebscrape.py"", line 25, in <module>
+    brand = container.div.div.a.img[""title""]
+AttributeError: 'NoneType' object has no attribute 'img'
+
+
+everything worked but i got the above att error...anyone know what that means?"
+you are a legend <3
+thanks!
+"m just using  it on ubuntu 16.04 command terminal it does not recognising the command ""from urllib.request import urlopen as uReq."" it shows error in this no module named request"
+"ye nice one broski, i understood everything"
+excellent
+amasing work mate thaks a lot
+It is great to learn data science with your favorite site(steam) :D  hardcore gamer
+it was life saviour.
+"So ... i spent 2 days figuring out your mistake to make my code work. 4:50 ---- from urllib.request import Request, urlopen ---"
+Good day I can't seem to do the python code you did at the very beginning of your video.
+Is the code posted somewhere? Looked in the description but didn't see it.
+Thank you
+wait did they bring python to windows recently?
+Nice
+what a legend
+As a beginner I have no idea whats going on lol
+"I have problem. every data write in only one column (A1,A2....) And I dont know why."
+"It shows "" Urllib.error  certificate verify failed. ""Why is that? anybody help me please."
+What if you just want to use JS?
+it is more than 100% percent......
+this video perfectly showed how bad can a tutorial be
+"my urllib says that urlopen is non existant wtf, only works if i do it the long way not ""from x import x as y"" way"
+"How do you return only the text from span like below ?
+
+>>> container.findAll(""span"",{""class"":""value""})
+[<span class=""value"" itemprop=""price"">US $15.49 - 26.49</span>]
+>>>"
+2+2 is 4 - 1 thats 3 quick maths
+Why is he using commas for the concatenation in the end? couldn't it be done without them?
+"Hi, I'm Brazilian, I need someone who can help me urgently."
+"getting an error around 8:23:
+
+urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:777)>
+
+Maybe this has something to do with using OS X instead of Windows?"
+"For those on python 2.7, there might be some syntax error. try python -m pip install bs4, it worked for me"
+Nice video.. but we need also part 2 :)
+"Note: if your connection is not strong to download web content, you will get a None output when you do page_soup.h1 as shown at 11:08"
+"I tried to get the quantity on a website and I applied most of your code. It then returned with the script. Unfortunately, I can't separate elements in the text (below) into different parts such as ""pn_sku"", ""part_available"" and ""part_search_term"". It works with creating and printing out the data into the csv file but it came with the whole text. Any ideas to separate those?
+<script>
+var utag_data = {
+            page_site: 'US',
+            page_language: 'en',
+            wt_use_udo: 'True',
+            page_content_group: 'Part Search',
+            page_content_sub_group: 'Part Detail',
+            page_title: 'Part Detail',
+            page_type: 'PS',
+            page_sub_type: 'PD',
+            page_id: 'PD',
+            pn_sku: '1740-1017-ND',
+            part_id: '1154763',
+            part_available: '4324',
+            transaction_type: 'v',
+            transaction_quantity: '1',
+            supplier_id: '1740'
+                , part_search_filter: 'No Filter'
+                , part_search_term: '568-3651-5-ND'
+                , part_search_term_ext: '568-3651-5-ND'
+                    , part_search_results_count: 1
+            , video_source: 'Part Detail'
+        }
+</script>"
+"Thank! Learning this structure in bs was really useful: soup.findAll(""p"",{""class"":""num-results first-focus""})"
+"Great Tute, I want to make a scraper for eBay and get the search results and then follow each item which got scraped and then grab the details from those details pages and then save everything in a CSV and then search each item on other websites for example amazon and if found scrap data from there and again save it to the CSV and then perform a calculation to find the difference is prices.  How can I go ahead with such a problem. till now I am able to scrape the data from eBay but don't know how to save them into CSV which I got to know from your video and going to try it now but don't know how to iterate over hundreds of links one by one and grab details and save them in a csv. Any help would be appreciated and if possible to make this into an app then i am willing to pay for it as well."
+So nice video. Thanks!!!
+U taught me scrapping ...thanx a lot and keep posting such stuff..
+Very helpful
+Really awesome!!!!!
+Great! Thank you
+"i have pure python 3.6 so is it fine if i refer your tutorial as you have anaconda
+do the commands you write in anaconda work in python 3.6?
+
+please help me soon."
+Great video!
+this is awesome!
+freaking awesome!!!!
+Best tutorial ever
+500MB kind of seems excessive only for web scraping. Are there no lighter alternatives?
+would it not have been easier to do this in ipython/jupyter so you don't have to type stuff twice?
+Awesome!
+really awesome.
+How to write multiple print at [27:50]?
+"Superb Tutorial ,
+
+No one can cross you.
+
+Excellent and I have one question for you
+
+I cannot pass through www.funda.nl/koop/heel-nede...
+
+Could you please help me"
+"I get an error when running my code:
+
+Traceback (most recent call last):
+  File ""webscrape.py"", line 20, in <module>
+    brand_name = container.div.div.a.img[""title""]
+AttributeError: 'NoneType' object has no attribute 'img'
+
+I double-checked the html file and img was present. what do I do?"
+"Did anyone get the error as below after typing
+page_soup=soup(page_html,""html.parser"")  ?
+
+TypeError: __init__() got an unexpected keyword argument 'strict'
+
+
+try searching on web but can't find the solution to this.
+
+Please help!"
+Great video
+When I put in the website I want to scrape and use the findall function it doesn't find anything
+more webscraping please
+"Could you please me with the PAGINATION (looping through multiple pages, clicking NEXT button until it disappears)"
+"So I have downloaded Anaconda, but whenever I go to type ""Python"" into my Command Prompt to show version, it only shows: ""Python 2.7.13"" it doesn't show the Anaconda version I am running. Anyone else running into this problem? I am on Windows 10..."
+You are the best my man!
+"How do i add things to my csv which don't repeat for every item on the website? 
+Please help anyone?"
+Master piece
+Great Video
+nice tute. Thanks
+you rock!!!
+Superb
+how do i update python 3.4 to 3.5 (windows)?
+"I am using Python 2.7.. The command    containers = page_soup.find_all('div',{'class': 'item-container'}) is returning a length of 0. why is that??"
+"""'my_first_webscrape.py' is not recognized as an internal or external command,
+operable program or batch file. "" This keeps happening, and I do not know what to do.............."
+damn thankyou mister !!!
+Do one in R now please
+"Really nice Video. I am getting the following error while scraping a website.""Unicode encode error, charmap cannot encode character '\u309'. Anyone seen this"
+"help i type python in the command window and it said""python is not recognized as a internal or external command,operable program or a batch file"" what should i do????"
+can u tell what uClient.close() doing??
+i am getting the result of len(container) as 0 ?
+where did u learn this stuff
+thank you
+"Thanks Phuc Duong,
+
+When I run the code I have the following erros:
+
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-117-2de5f3cdedda> in <module>()
+      1 for container in containers:
+--> 2     brand = container.div.div.a.img[""title""]
+      3 
+      4     container.findAll(""a"", {""class"":""title""})
+      5 
+
+AttributeError: 'NoneType' object has no attribute 'img'
+
+Do you know why?
+
+Here is my code:
+
+for container in containers:
+    brand = container.div.div.a.img[""title""]
+ 
+    container.findAll(""a"", {""class"":""title""})
+ 
+    title_container = container.findAll(""a"", {""class"":""item-title""})
+    product_name = title_container[0].text
+ 
+    shipping_container = container.findAll(""li"", {""class"": ""price-ship""})
+    shipping = shipping_container[0].text.strip()
+ 
+    print(""brand: "" + brand)
+    print(""product_name: "" + product_name)
+    print(""shipping: "" + shipping)"
+Don't know why you have to use command prompt when you can just type it into IDLE
+Is there another environment to enter the Python code?  I'm using the command prompt on Windows7 and cannot delete once I find a mistake on a line.  It also does not like me copying  from Sublime and pasting into the command prompt.   Is there  a python shell that is a little more flexible?
+"I cannot pass through www.funda.nl/koop/heel-nederland
+Could you please help me"
+"Can you resolve the problem...??
+the first line in the for loop is not working...it says 
+brand = container.div.div.a.img[""title""]
+AttributeError: 'NoneType' object has no attribute 'img'"
+I cannot pass through www.funda.nl please help me
+Do you need Anaconda if you are using a MAC?
+when you said anaconda i thought you were kidding......then i get serious.
+I got blocked from the site I was scraping! :P
+"Hi there, today I make this code but the code didn't scrape all products. Please help me"
+Fuck! I was hoping to just open note pad and get to it.
+Funny how you want to make a academical search and the 3rd thing that pops up is Nikki Menage... lol Hurray for our society....
+"How will I save this into txt ,instead of cvs,because I want to calculate tf-Idf , please reply"
+you are so fast
+17:45
+God I've been so stupid!! Inspecting elements!!! AAAGH
+19:26
+Since when do anacondas like pythons?
+This guy sounds drunk as hell on 3/4 speed.  great stuff tho
+mmmm key?
+for the love of god stop smacking your lips between every sentence. it makes this unwatachable
+I think i got blocked by new egg T.T
+i beg you please tell about how to make web crawler using python in simple and easy method/steps
+"first day learning python. i hate it. wtf are all these packages. why use urllib when it fucks up on headers. who cares about headers anyways...
+
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+
+because python :D 
+literally pasting the url in the browser and it works. in urllib fuck no. gg"
+"Говорят EnotGlobal взломал выдачу яндекса, вот что реально интересно было бы узнать.. а это очередное и не интересное.."
+"When ı watch this, all ı am hearing is m'key from southpark. 2 words, m'kay... 2 words, a'right..."
+i wonder what this guy looks like? very interesting voice
+Yang milih allah like 40000 ya
+11:38
+14:14
+Wait for what is that...Is that ilegal
+seriously copy past back n forth btw cmd line and sublime? man if u like to check if ur line of code works just use jupyter notebooks bcs what u do is a brain fckg :3
+Dude - Good job!  Now - go take your meds...  :)
+Can I hire you?
+csv file is not showing contents yyyyyyyyyyy?
+y not write to sublime Directly its a bit annoying copy paste.
+yes please
+users/phuc/downloads.... weird ass kink bruh
+where is captch then<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>><???????????????????
+2+2 is 4 quick math
+Jesussss. ... all over the place.
+your website is very slow.
+Omg.
+I love u bro
+Containers contain nurse
+I'm at soup.
+Please help me
+GREAT. TUTORIAL.. can any give me a doc of the coding? please...im toooo lazy for that much coding hours....heeelllppp
+oh no 500 megabytes so much data
+My nigga
+if you want God to forgive you dont commet here just go to the church and pray.
+Omg
+24 mins
+Hello from Vietnam!
+mmmkay..
+its so dumb to prototype things...
+merhaba
+I KISS YOU!!!
+I ain't watchin any tutorial by a guy named Phuc
+Are u a vietnamese guy ?
+like wtf... i dont understand shit
+mr garrison mkay
+Is that you Mr Mackey?
+Oop!
+Is my is my mother goose club out.
+I love you
+fy
+I love you
+Alright
+28:00 now dis bish just showin off lol
+2:29 Anyone else notice after users he spelled fuck as phuc???
+MKAY?
+pointless
+u will get 503
+Okay.
+lol go faster
+this guy is super amateur...
