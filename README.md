@@ -2,7 +2,7 @@
 Applying JavaScript command in the console to get the scroll Height.  
 **JavaScript command:** `document.documentElement.scrollHeight`
 
-Another way by using [requests_html](https://requests.readthedocs.io/projects/requests-html/en/latest/) library:
+Another way by using [Requests-HTML](https://requests.readthedocs.io/projects/requests-html/en/latest/) library:
 ``` python
 from requests_html import HTMLSession
 
