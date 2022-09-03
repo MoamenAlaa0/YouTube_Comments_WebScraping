@@ -1,0 +1,541 @@
+comments
+"If you make more deep learning videos with numpy and math(without any framework) just like in this video, it would be great for begginers to learn basics!!! Do you think to keep continue??"
+"Most people who say FROM SCRATCH start by saying 'first you will need to install TensorFlow' haha, I love your starting monologue. 10 points Samson. I would love to see a RNN for natural language processing from scratch, I find LSTM gates confusing."
+"This video is one of the best descriptions of neural networks written in only Numpy and Python I've ever seen.
+Thanks"
+i like how numpy has become so ingrained in python that it's basically considered vanilla python at this point
+"0:51 Problem statement
+1:18 Math explanation
+11:18 Coding it up
+27:43 Results"
+"Great explanation! I would also recommend 3Blue1Brown's series on Neural Networks(https://www.youtube.com/watch?v=aircAruvnKk) for an even deeper understanding of this topic. That series also uses the same handwritten number recognization example as used in this video. After you watch that series, come back and implement the code from this video from scratch, and you will have more fun. Happy Learning!!"
+"Man this video is a masterpiece. I learned a lot and I love your thorough, calm style. Please keep doing similar content!! Best wishes"
+"I've never heard any of this explained before. After watching this once, I understand the mathematics behind neural networks and why the functions are used. Great job with the explanation here. Many thanks."
+"This NN works great, but it seems if I add a second hidden layer with 20 nodes, everything starts to break down during backprop. Does anyone know how these types of networks function?"
+This was a really good video. I’ve never build a neural network but it was interesting seeing how the fundamentals add up to build something a little more complexed.
+"What an awesome video!  Thank you for sharing this insightful walkthrough, it was really helpful in getting a better understanding of how neural nets works.  Thank you!"
+"The yt algorithm only recommends me this now, 1 year after i've encountered a similar discontent with neural network tutorials. Still very interresting to see how someone else does it. I did give myself a bit of help by using a library called Eigen for the matrixes calculations. 
+Very well done nice video"
+"Hi, i found this video very helpful for beginners. Could you please tell how you came up the equations of dz,dw and db? That would be really helpful as well"
+Just discovered this channel. Very cool stuff. Much respect for doing something challenging like this.
+Great video bro! Really love watching the underlying math of neural network. I recently became enthusiastic to AI (mostly ML and DL) because of math. But I rarely found videos about them involving the underlying math such as yours. I hope you create more ML/DL videos with more math. Thank you for sharing! Cheers!
+This was really neat. The math explanation was frustrating the first time around but really made sense after working through the code. Thanks for sharing.
+"Another thing that would be helpful for those of us that want to copy what you did and experiment with it is to have all the code together instead of separated as it is using Kaggle - this way you can put in some comments with the code explaining the different features.  Again, very good video."
+"Thank you for your time and effort, Samson, this tutorial is a treasure."
+"this type of learning is honestly the best, i implemented k means clustering by myself in c (pretty easy stuff but still) , and i can never forget it now, makes me happy that i can do stuff too"
+"Nice work, your explanation and coding were interesting… can you show an application for a simple neural net prediction using LSTM ?"
+"I loved this video! Cool stuff. I implemented a tfidf clustering algorithm myself, very satisfying to see it all working"
+Great video! It's really solid in foundation! I will definitely recommend this to those just like to use framework and library without understanding
+Could you please do more tutorials ? This is such a great video
+Everything goes over my head!  Explained very well bro. Helped me a lot to learn the basics and how to implement the logic into code. Keep it up.
+"What an impressive speed run! Just nitpicking: 15:45 `rand` is for a uniform dist U(0,1) and `randn` is for the standard normal distribution N(0,1), therefore unbounded, not U(-0.5, 0.5)"
+"Thank you so much Mr. Samson!!
+This was so informative and enlightening"
+"Hey ! Thank you a lot for this video, helps a great deal to understand the math behind NN. I'm new to this field and trying to teach myself. I tried to replicate your code on kaggle while following the tutorial. However, when I run it, the accuracy always converges towards the same number :  0.09817. I've checked all the code but I don't see any difference... Any idea? Thank you !"
+"@SamsonZhang if you add it to the video description we'll have chapters in the video itself (https://support.google.com/youtube/answer/9884579?hl=en):
+
+00:00 Introduction
+0:51 Problem statement
+1:18 Math explanation
+11:18 Coding it up
+27:43 Results"
+Awesome fundamental class on neural networks equations. Bravo!
+"Samson, Keep doing this kind of videos please!! Very intelligent and understandable video"
+amazing way to learn for beginners. I thank you sir.
+"Thank you for the amazing video!. You did an awesome explanation! A quick question, would you be able to re-share the code link? The current link connects to 404 page"
+"It's a MLP, you easily computed the backpropagation step in closed form, but I wonder how those famous frameworks can compute any network's partial-derivatives tensors automatically"
+"Very interesting and definitely helpful, thank you very much for the video!"
+Amazing. Needed to see the low end and finally found it. Thank you for the amazing video!
+"This is a great way to teach ANN - congrats. However, I would like to suggest you to not worry too much about the time to finish the implementation. Double-checking all steps will avoid coding errors."
+"This is something I always wanted to do, but always failed at the backward propagation math part.
+Cool!"
+"Thank you!! Your video helped a lot. Just a little suggestion, the beep sounds you add like at around 27:25 are way too loud compared to rest of the audio. Other than that, one of the best video for beginners!"
+"Bro, that is exactly how I study! I found out your channel and I am so glad I did. Instantly subscribed!
+I see you have learnt from Andrew Ng"
+I need to come back to this after learning some more preliminaries but you are a very natural teacher and good at presenting. Keep it up 
+It feels like it took me months to understand programming feedforward neural networks but I finally understand it. Thanks  for the video.
+"Thank you, this was an amazing video. It unlocked a lot for me."
+"Timestaps if you forgot
+
+0:51 Problem Statement
+
+1:18 Math Explanation
+11:18 Coding It up
+27:43 Results"
+"Nice video with explanation. If it provide the step and process of taking derivative by math , it would be the best. Anyway, Worth to watch  !! Keep it up man !"
+Nice! I did the same when I was learning about neural networks. It makes it so much clearer. Now for a convolutional version.?.
+"After Andrew Ng's course, this is the first time I'm watching math functions, thanks buddy, it was a nice refresher for me."
+The softmax function looks just like a partition functioning from statistical mechanics
+"Amazing stuff! Just wondering what value does the coding timer add to the video? I mean instead of correcting your mistakes with overlapping text you could have taken a little bit of time to review your code instead of rushing it through. But again, amazing content!"
+"Hey, I found a flaw in your code and would be great if you answer it......The updation that you are doing for the bias' is not all needed as per your code because all the bias are changed by same factor hence it's still random( you have used a scalar to update the bias instead of a column vector)......I found the correct solution to it but getting an error. you should add the axis=1 in the sum function."
+"Great video. Could you please update the blog article link? currently, it's giving a 404 error. Thanks"
+Very good video and explanation! Thanks .  I just would have liked it if you had explained the backprop a little more in depth. Like how the derivatives are calculated on each layer (chain rule etc.) But other than that one of the best nn videos
+You making a version of this but for convolutional neural networks? Would be really cool!
+"Good stuff, really like the casual usage of NumPy. Not going through the rest of your vids, but did you get to recurrent networks later?"
+"You can actually use momentum for gradient descent. The result is slightly better (I tried on your nn and it gets 91% accuracy)
+
+// I'm a  beginner at ML so your video taught me a lot. Keep up your great work you're doing man. It's really cool."
+"Hello, it's such a great tutorial. thank you very much. I think people who are over exited because of this AI-hyped should learn this basic, and see whether those people really fit in to this field "
+Thanks a lot as a beginner it as a lot of fun and knowledgeable i also played around with iterations and alpha to get around 93% Accuracy
+"Thank you for sharing . You did a awesome explanation! A quick question, I got brunch of NaN in A2 after Softmax. Besides, can you please re-share the code link? The current link connects to 404 page "
+My god!  Actual engineering represented in a machine learning documentation video!?  Miracles do happen!
+"Thanks so much for providing the notebook. I tested with different learning rates and lo and behold, 0.50 gives 91% accuracy on test data. And by setting the number of neurons in the deep layer to 20. The accuracy of 93% was achieved."
+Can you share from where you derived those back prop formulas?
+"Hey, the video was very informative for a beginner to machine learning. I did have a question about the code, I noticed that when I implemented the code as you did in the video I was getting an error: RuntimeWarning: invalid value encountered in true_divide in the softmax function. I looked at your kaggle notebook, and I see that in the notebook you do
+x_train = x_train / 255
+and when I did this it fixed the error. I'm not sure what's going on here, does anyone know why this is happening and why dividing by 255 fixed the issue?"
+I agree with you. I also did this by scratch. It was a lot of fun! What’s the point of masters math degree if I am not going to use it lol. Nice work!
+"This is just great, thank you and keep going."
+"Do more like this one, please!"
+This is exactly what i needed ! I was going to do this myself
+this video solved literally All of my problems. thank you.
+"Making a neural network from scratch is easy, what I really want to see is how to make a neural network ON scratch."
+"Thank you sir for your brief explanation and my question is you use X but i didn't see you define it in the code, can you pls  explain how you got X"
+"Thanks Thanks Thanks Thanks unlimited times bro,
+you are such a genius, nobody has explained a lot liked this.
+I have seen so many videos but got nothing clear, but you explained awesome,
+Bro please keep it up. You are awesome teacher."
+Absolutely impressive! Very clear and thorough explanation.
+"Thank you. Keep it up! 
+
+Math with code! 
+
+Don’t stop! That spectrum is not represented enough."
+Thank you very much for this informative video. i used it with another dataset that has string classes and i keep getting this error (arrays used as indices must be of integer (or boolean) type) in the one_hot_(y) function. How to solve it?
+"Samson, great video but even better method of instruction!"
+"Great video, but I have 1 question: shouldn't dz2 be multiplied by the derivative of the softmax function, or did I get the math wrong?"
+This has helped immensely! Cheers!
+"Hey guys, a reply would be highly appreciated. I want to plot the cost vs the number of iterations but I am not able to figure which parameter to plot ? I am a beginner and I would really appreciate the help. Thank you"
+"This is such a useful video, thank you very much"
+"This is a project I have to put in my portfolio, thank you."
+"Wow, this is very helpful. Thanks."
+Nice. Please keep doing this style. Learnt from you!
+"this explained it so well, i always just thought that it would randomly change the neural network a bunch of times, take the best one, and then randomly change it (like natural selection), but you have enlightened me. thank you so much!"
+"10:03 I am confused by the expression for dz[1] = W[2].T dZ[2] .* g'(z[1]).  W[2].T dZ[2] is a [10,m] matrix, and g'(z[1]) is also a [10,m] matrix. Are you going to do dot product (.*) of these two matrix ? But it is only possible to do so when m = 10, but we know m is not necessarily 10.  Later on, when you implement this equation, the code reads dZ1 = W2.T.dot(dZ2) * ReLU_deriv(Z1), here ""*"" is not dot product and it should be  element-by-element multiplication."
+This guy did the work of all the frameworks in just 30 mins... It's just Awesome 
+5:00 is the key of the entire idea of neural network or deep learning
+Yess i wanna learn it behind scenes not only framework. Thanks for it :)
+I actually did this exact same thing for my German a level project. Same database. :D good times
+Really cool video Samson! Great stuff!
+"A small doubt , is the model using the whole training set in each iteration?"
+"Awesome brother, thank you for sharing with us."
+"Best machine learning video I have watch, goooood job."
+Thank you Samson for this video! So you all that needs to be changed is A1 to Z2 is that right?
+"Great tutorial, but why haven't you done a derivative from softmax function in backpropagation?"
+"Great video!  It would be nice if you worked off this video in showing how to add additional layers.  I bought the book ""Building Neural Networks from Scratch using Python by Sentdex and much of how you explained things were exactly how they explained things, but you were more concise, which is appreciated."
+"followed, thanks for the clear explanation and code!"
+Bravo! very nice indeed.  Keep doing your stuff.
+Hi! how could we change the gradient descent into Stochastic gradient descent ?
+"in definition of the back_prop function, while defining db2 changing the second parameter of the sum() function from 2 to 1, I missed that."
+Can you make convolutional and lstm neurons from scratch?
+This was the first (of weekly) project in my introductory AI class... no libraries allowed (I used java lol just standard library)
+This is the first ASMR NN video that I have ever seen. Well done.
+Great video! And your typing is pure ASMR! What keyboard are you using? :D
+"Loved this video, exactly what I was looking for.."
+"Thanks a lot for the excellent video! Just a one thing I wanna ask. The derivative of ReLU is 1 or 0 at non zero point. But what if we hit the zero, how the program is gonna handle it? Keep up the good work :)"
+"I really am like you, as you said you learn better when you dive deep into the scratch with equations you understand better. But, now I think that's the case with most of the people."
+Awesome! Great video and explanation of ML roots. Take care!
+This beautiful. Great work
+"Great video!
+Thank you so much!!"
+"Everyone praises this video for being so helpful and I'm just sitting here understanding NOTHING. :D I feel so dumb! Maybe I should've stared with something even more basic having learned in a nutshell only print(""hello world"") so far. I will definitely go back and watch it all again in the future after I learn more. Thank you for the video, Samson. Cheers!"
+"This is really nice. Also a shout out to Andrew Ng course on coursera, helped me see the inside picture of how ml works"
+"I would love to understand what is going on here. Do you think you can give me list of required learning before we are able to understand what is going on here? I took both Calc1 and 2 and I still don't know what half the stuff here means. 
+
+Either way, pretty cool and interesting video!"
+Can you make the next class as a full course of deep learning?
+"10:05 i dont understand how the derivate is used to undo the activation function. Say for example, the activation function is x^2 and i input 4. The activated output will be 16. If i now ""undo"" this by using 16 as input to derivative 2x, i get 32. Before, I thought i got it, as i thought i could use the derivate of (for example:) the tanh function to multiply the slope with the learning rate to make undecisive values get to -1 or 1 quicker. Now i am a little confused. Could someone elaborate on this?"
+"Hi Samson Zhang, can u please tell how to design and write code for a SNN for pattern (digit) recognition using unsupervised  Lifelong learning Algorithm, in pycharm. It would be great help from learning point of view."
+"This was super helpful, thanks!"
+"With a neural network you were able to get to about .84 accuracy. The MNIST dataset would be very useful if you ever happen to make a Convolutional Neural Network from scratch video, since CNNs are great for predicting data in the form of multidimensional arrays like images.
+The model you used could have been very efficient if you had trained it on the Iris dataset.
+
+Great work "
+Superstar!!! Definetely gonna reference your video in my coding project!! Thanks so much
+Pretty useful! Thanks
+"This is great. Librarys are good for using, but not so good for learning and really understanding. So I really appreciate this tutorial! You made my day!"
+Very informative video Samson. What keyboard do you use?
+"When I was graduating I had to do similar stuff,  back then, things like sklearn were not widespread and easy to use like nowadays. I remember spending god amount of hours trying to figure out backpropagation doing calculations by hand in order to have a solid grasp of what was going on. Sadly, I mostly forgot everything by this point."
+"thank you for this real tutorial, watching your mistakes helped with explanations on the purpose of each equation/training iteration. thank you, very inspriational"
+ Great video! Thank you!
+"excellent video, friend. helped me loads with my hw hahah. If I could offer constructive criticism, I'd suggest trying to pinch around the page less, it's a little hard to focus when watching. but I use onenote on my iPad so I understand where that reflex comes from."
+"I think that great complementory video to this video is this that clearly and simply explained neural network:
+https://youtu.be/CqOfi41LfDw"
+Good stuff! Thank you for sharing!
+TY so much for the great explanation about neural network and example!!
+"Good stuff for zzz, thank you buddy :)"
+"Thank you. I was really disappointed when in my machine learning class they just had us using sklearn. Its like why even have the assignment if we're not even going to interact with a neural network in a nonsuperficial way? Basically all you do is plug in the data set, dont gotta know a thing about how they work to use it "
+I'm curious why you initialize the biases to random numbers. I've read that biases can be initialized to 0
+why did you subtract 0.5 from the vectors in the init_params()?
+This video is legendary! Thanks mate
+"@16:00 randn() is from a standard normal, so is unbounded."
+"Anyone please give me a suggestion, how, where to start learning deep machine. I prefer the text book one, but video and audio would be great too. Thanks in advance!"
+"Keep doing it man, I am from Perú and the information that your are giving is the important I have heared about"
+"This is AWSOME ^^
+
+Thank you for this ^^"
+How did you learn to do all that without a library? Could you guide me towards the resources? Thx
+finally someone who actually respects the craft
+How do I create a CSV file for this procedure using the t10k-images-idx3 files from MNIST?
+"In case any beginners to ML came here wondering why they are really confused, this video isn't really for beginners and he doesn't really explain that. Its ""from scratch"" in the sense of not using any prebuilt models in the code. Its a good explanation for people who are already familiar with neural networks, prebuilt layers, loss functions, etc. not for people starting their understanding ""from scratch."""
+this exactly what i wanted to do. think im going to be studying your video a bit.
+very helpful. thanks a bundle
+Could you please update the code for accuracy and loss graphs?
+"this video is great, thank you!"
+"Good video, but how does it produce a correct output, AND a prediction output? Isnt there only one output? It needs to have the correct output to compare against the actual output to adjust the weight. And where does the prediction output come out. How does it know the correct output to compare, if it hasnt adjusted and learned yet?"
+I subbed because I expect a series of videos like this 
+"It seems like you are not using softmax derivative. Great video, though!"
+what is the reason for using the sigmoid and the ReLU? how did you choose them to be in your hidden layer and not some other thing?
+Great explanation
+this video deserves at least 1 million views
+"Samson Zhang is the BEST Cinematographer, editor, musician& tech geek in the WORLD"
+"Really cool, I love that you Show and Code the Basics! Edit: i linked the video in my german ai fb-group if its okay..."
+"Amazing video, and brilliant skills, by the way, can u pls kill my curiosity? i can't figure out how u are what u are, searched in your channel, and don't understand... are u a video maker and a programmer? I don't take me wrong, just a bit curious and fascinated by everything u know. I want to learn programming and someday know things like u do, any advice on where start?"
+How do we choose the number of hidden layers?
+"Good idea, I'll try this on my own first"
+great video thank you!
+"Hi, can you please post the notes in your Onenote notebook?"
+if u get stuck after following the turorial check out the documentation in his description it feels like more things have change than he says and the docu helps fixing these issus.
+"I have a question, can a neural network be done in browser and with your own dataset?"
+Very impressive. Subscribed.
+"Thanks. Yes, it helped a bit :)"
+We now have some idea of what inside the black box looks like. Thank you.
+Good stuff!!! Cool! Keep it up!
+"I thought the title was ""building a neutral network IN scratch"".
+
+That would have been pretty crazy."
+Thanks for your efforts. Was a useful video to watch.
+"Hi mister Samson I want to do a RBC sickle cell image classification healthy and defected can u pls help
+How can I use ur network ....
+Or can u pls suggest one NN that can be applied."
+"For the adjusting of weights part after back propagation, why is it always subtracting from weights using learning rate. After some point won't accuracy start decreasing if its always being subtracted?"
+"Please make video again with study case ""breast classification or fraud detection"" with neural network and how make train/test split data with just numpy without sklearn"
+"10:02 why do we multiply by g' here, instead of g^(-1)?
+
+edit: I think I get it now, it's just the chain rule"
+You should make more videos like this!!
+"I get that the error in the prediction is A2 - Y, but why are we calling that dZ? A2 is softmax(Z), and I don't see how dZ = A2 - y"
+"randn means random from normal distribution. It's not ""from -0.5 to 0.5"""
+"you are amazing bro, keep it up"
+"Just 1 minute in the video and I can easily tell that you're gonna own a multi-billion company within a few years. You've got the IQ, the voice, the clarity, the confidence, and the right personality. Best of luck Mr. Zhang"
+This video is so precious you’re incredibly underrated
+Can you put the code in pdf format ? thanks.
+"When I saw the title, I thought this was a video about building a neural network with MIT's Scratch lol. That would be... something else."
+"You did a great job explaining, however, your code you posted to kaggle is wrong."
+can deep learning train on annotated examples. e.g. theres no images .jpg files theres just a csv file with data in it (numbers and categories) can a deep NN train on this or is it nessasary to have the images as well?
+"Great videos,  what device are you using ?"
+nice!!! u deserve more subscribers mate
+"Does anyone know why I get this error when I run the one_hot_enc function?
+IndexError: arrays used as indices must be of integer (or boolean) type
+Refers to the  one_hot[np.arange(Y.size), Y] = 1 line"
+"I think this video should be good, because he explains everything in detail
+But holy moly
+You are fast"
+This is awesome!
+"When you start your own company, let us know the name so we can invest and become millionaires.  When I was your age, I was chasing women and getting drunk.  Its nice that you broke down the models and explained how it worked.  The rest was way way way over my head."
+grate video..helped alot. Thankyou :)
+"Nice, good inspiration for my son!"
+"great video. no need to record time, take it easy, it's not an interview"
+Is it necessary to learn neural network from scratch to be professional In AI and deep learning?
+The best video i ever seen ...️️
+"Dude, you slayed it.! Try with MATLAB next."
+does the bias have to be added each round?
+"this man appeared, released an absolute banger of a programming video, and proceeded to never posted any cs content again. sigma mentality tbh"
+"maaan people like you are so rare here in youtube u have to make more videos like that
+<3<3<3<3"
+"The most important aspect that you have missed is, You did not tell why you have created a hidden layer of 10 neurons. What will be the impact of 10 neurons and what is the purpose of the second layer. Your video is totally based on any book mathematics which is already available. If you really want to make difference then make please consider the above suggestion. And take this positively. Everyone can read mathematics at this level but few people know what is the purpose of every layer.  For example, when you are writing code in python or C and you exactly know what will be its corresponding code of assembly language."
+I wish DL was introduced to us like this when i studied it ...
+Wow very nice video could you do something similair with lstm's and mabye stpck pridiction :D
+"The way you do is actually ancient. With automatic differentiation, the process of derivating nn is much more esier"
+No other video about neural networks can explain neural networks better than this one
+I've been looking for this video for 6 years.
+"Samson Zhang is the BEST Cinematographer, editor, musician& tech geek in the WORLD"
+I need to see someone writing an ann with just assembly.
+Thank you for this video.
+"Digit classification... why dude... you've already seen a million tutorials on this, it's a classical example. Can we not be more creative? I still appreciate you bro."
+The face convinced me that this guy knows what he talk about in the first 3 seconds of the video
+"Thank you from India 
+Excellent explanation!"
+"""we put together in less than 30 min"" - and that was after a half hour just coding, like a week of time to learn a math structure behind, more than hour debugging and who knows how many hours to learn python and all the tools..."
+How can we add more layers?
+I love this 
+What I learned is if you can code just do it because if you tell other people what you built they will tell you can’t do it that way even though it works.
+can i substitute relu for sigmoid ?
+Thank you ~ this video help my ML homework a lot
+"""We'll move fast, we'll move fast""
+Said while moving fast."
+"why are you not taking the derivitive of the soft max ? its in the loss function, we need to apply chain rule to softmax as well?
+Could you please explain?"
+"I’m currently working on a GAN that my professor set up. If you could please help explain GAN’s in a similar format, you’d help me become a better asset to my professor, and I’d greatly appreciate it. While this entire video was stuff that I know, I had never done it from scratch, so it was a real treat to get to see it coded line by line. Thanks for the great video."
+This video answers a lot of what but not why. The whole point of doing something from scratch should be to answer whys at each step
+How come you did not have to calculate the Cross-Entropy Loss after your softmax?
+"i tried to built a simple 2-layer MLP justing using numpy, it can work, but soooooo slow."
+"TBH I feel like the backpropagation part (why the equations are the way they are) was not really explained. Don't we have to find the derivative of softmax?
+
+Nonetheless I enjoyed your video and have learned a lot, so thank you."
+"I wrote some code years ago in CUDA, Java and was used for image recognition in movie trailers.  Id be more than will to give you all the code if you want it, i think youd find the algorithm interesting. 
+
+128bit feature vector,  bag of words, and a lot more."
+Thanks bro.....very helpful
+How did that multi row multi column matrix become one column?
+"Thank you, thank you brother"
+"Late to the party. Thanks for the video.
+
+Though not sure why it was necessary to constrain yourself to 30 minutes. It seems to make you rush at times through the code. I mean you are video editing so who knows how long it really took. Just didn’t see the need for it."
+Looks motivating
+Great work
+I wrote an Adaline network about 25 years ago in C++ that I used for some basic pattern detection.  I converted it to C# about 15 years ago.  You young kids with your Python ;)
+Excellent !!
+"Ok now build one using Scratch, those kids programing blocks ."
+just scratch your mainboard and it will create a neural net to fix the missing parts because it wants to exist ai
+Omg thnK you. Great explanation. I wish I had this video over a year ago
+"why the hell would ANYONE in their right mind do ANYTHING like this in python.   Why does nobody write neural networks in real programming languages like C? 
+Python is probably the one ""programming language"" (in air quotes) that I hate most.  I literally have no idea why anyone would use it for anything... EVER"
+Do plain c next please.
+ngl forgot I was listening to a CS video for a while there. very relaxing
+How to accelerate training by GPU?
+Thank you!!!
+Wow.You are sent from Heaven to help the world.
+hi what happened to the blog with the clearer explanation? great video btw
+"why did you use the np.argmax  to get the prediction , as I read about it in the documentation that methode returns the indices of the maximum values along an axis"
+"There is a reason why some Ivy League  universities use race based admissions criteria where ""Asian"" people need to attain the highest acceptance thresholds to be admitted."
+wow this is really interesting
+this guy knows victorias secret
+"why it is always db = sum(dz) ??
+where is the sum coming from?"
+Рахмет! Керемет!
+"NN on NumPy is too easy and actually most of Andrew Ng's famous course is about that. For me NN from scratch would be a C (not even C++) implementation. Ok maybe C++ or Java. But Python with a powerful matrix manipulation library? It's not from scratch, most of the work is done for you by the library."
+enjoyed it .
+pretty easy stuff
+Thank you!
+What is the cost function you used in your code?
+"I like the content compare to many other Youtube video demonstration for code the neural network, but I hope you don't try to code it quick. That is too fast and skipped the time for audience to understand and digest. Then it end up can't follow your pace. I feel change your speed as x .5  is close to a proper learning for novices."
+Really nice video
+I did the same it was easy
+Thank you!
+great video
+95% accuracy on my computer
+"I want to make it too using VBA so it can be integrated with excel directly (No Jupyter, Matlab, etc.)
+
+But I cannot use Numpy there.
+Sad."
+Literally great
+"what is a neural network used for, seems too complicated for just coding for fun?"
+"Blog link in the bio doesn't work. Please help.
+Thanks."
+your video is sick but I wonder why when you did backpropagation you didn't find the derivative of softmax function? Hope you guyes explain it to me 
+how get_prediction and get_accuracy function work?
+"Using an artificial neural networks package is not ""from scratch""."
+"6 minutes in I mentally shoved you into a locker. Had some coffee, started over, learned something new. Now how to apply it to something nefarious."
+Thanks !!!
+please tell me exactly what error you changed? I am not able to resolve it.
+Why there is no softmax derivative in backprop?
+The next thing to do is build a neural net from assembly.
+Are you the one that invent the Zhang's Method for camera calibration?
+"I did not understand anything... how by just using vectors, the AI, can ""understand"" (or try to guess) what number it is?"
+"hey thats fine, still got to learn a lot"
+Thank you.
+You are POWERFUL
+This is just masochism but with extra steps
+I'll be your big fan from now on.
+Sick video dude!
+I wish you would have derived the Maths formulas. I had to pause take out my notebook and try to figure out how.
+Why you haven't taken the derivative of softmax activation and where have you called the derivative of relu
+accidentally clicked on this vid just wanna say i like the piano phrases on ur transitions
+I built it using only c...can you do that??
+Poor explanation of the math of back-propagation. Rest of the video was good.
+"The word ""neural"" is widely missused by you programmers,. What you are showing here have nothing to do with real nervous systems but rather just primitive binary state machines."
+show us the way to build AI sensei!
+loved the klenex box at the left bottom of the screen
+good job
+"Not good enough, would only be impressed if you made it from scratch on Scratch, like a real man"
+"Bro i give advice ..
+1.Please don't waste time to programing.
+
+2.Please do some workout or excercise in life  
+Because marriage,child, parents help 
+This is need healthy body .."
+neural networks using C
+"Nice idea, but why should I watch a needed up tutorial, I want to learn"
+"This is not scratch, this is python. Do it in scratch."
+Nice...still struggling here
+"You build your sentences as if you're around 25 yo, you got a calm, confident voice. But then I look at you and I'm thinking is this kid some kind of prodigy, is he really 12? Please tell me do you look super young for your age, or are you super smart for your age (if you pick both, you just got big ego :P )."
+I support you bro
+"5:30 ok now my brain hurts, breaktime. Cool video though."
+Me still watching the video even tho I dont understand anything that is going one. : D
+""
+Next build a neural network IN Scratch
+The blog article is showing Error 404
+Check out Heaton Research. The original 1-man Neural Network library dev.
+believe it or not intelligence is alive and physics as well i can prove it its intelligent life that is unbounded with a universal one and the process of creation being achieved and the god equation physically
+Blog article with more/clearer math explanation could not be found
+"Bro, you code like me"
+"Your name sounds like my phone's brand name. 
+Great tuto"
+"i subscribed him ,just by looking at the video thumbnail"
+Do it without numpy
+Next: Making a neural network from scratch with my girlfriend
+""
+"Is this a MLP ?
+(Multi-layer preceptor)"
+"Just reading the title and the look of this cracked face alone, spells out BIG BRAIN "
+Now build one IN Scratch
+"It was a nice try, but the jumping around turned me off, thanks anyway!"
+From scratch? Then write the assembly by hand
+Oh my God! Where have you been all this time?
+I dont fking understand wtf happend in this video . But I think that is very cool ...
+In my case It predicting only one class
+"You used numpy??? That is cheating. You didn't really build it ""from scratch"".
+
+Now that I think about it, you used Python??? You didn't implement your own programming language??? That is also cheating.
+
+Using an operating system you didn't code yourself is also cheating.
+
+Using a compiler or build system that you didn't create yourself is also cheating.
+
+I'll allow you to use hardware you haven't designed yourself tho. That should make the whole process easy enough."
+"your keyboard is so mute, can you please tell me more about it?"
+Nice.
+Link in bio doesnt work
+Blog article link 404's
+Yes. Writing a comment so that youtube keeps recommending you. Thanks dog!
+How concentration he is
+"Numpy & math? Pathetic, i build my first neural network with only pure python"
+"you don't explain clear enough, lots of assumption have taken that viewer knows whole lot about the NN."
+"Only a few minutes in, and it's already totally unclear: What is W^[1]? What is b^[1]? How to determine them? Ambiguous and unclear video: the concepts aren't explained properly (or at all). Very poor, very disappointing!"
+bro you're a beast what
+That looks like zodiac code
+you gave no reasoning of why ReLU and softmax were used
+"26 years. so dont try to compete. you know your chances right?
+
+what are the oods youre gonna catch up the me? is it 0 percent? or is it theres just 1 in there somewhere?"
+what mic are you using bro?
+TIL I'm a web developer and not a software engineer
+""
+how do you make it learn to love  lol
+"fix your glasses so it's not constantly falling off your face.
+
+thick arms conforming to the side of your head will prevent this."
+pretty good  kid
+nah imma do this in machine code
+What is dev?
+cool
+this is speedrun or tutorial  bruh
+I love you!  I love you!
+there is something wrong with your code
+Kinda dissappointed. This is not the MIT-Scratch
+"oh shit. im gonna lose lol.
+
+its okay. take care. take rest. sleep. learn think. dont talk"
+"damn, you graduated from Philips Andover ?"
+https://www.youtube.com/watch?v=TT0pvRy38FE&list=PLfmrb9ExuCorxjPREIRWXcg3nIGdizbgZ&index=5
+What does scratch mean? What is it?
+"This is bogus, don't waste your time. The code doesn't work, it is so badly broken."
+i love you bro (no homo)
+29:06 lmao that is one janky ass 3 damn
+Everything taken from Coursera
+0:11 why? Look at him he’s asin thats why
+10:25
+is this your smartest guy? maybe try to learn this guy. HES THE SMARTEST MONKEY.
+It seems like your website isn't working.
+Here’s a sub
+"No way, who are you ? From where did you came from ? "
+How can i become Asian so i will be good at this stuff though ?
+すごい、他のチンクに似てる野郎だけど。でも、プログラミングとＭＩＮＳＴとニューラルネットワークをちゃんと知ってるみたいだ。数学も知ってる。チンク。
+Heyy I'm Samson too bro 
+"Guys what did he change in his code,mine literally not working only 10% accuracy???"
+"""neural"".... LOL.... Such a cute delusion."
+this guy likes pain
+whats ur mic?
+are you related to Samsung?
+"From scratch? No Scratch actually used, cringe."
+なんで特亜人はいつもその眼鏡をかぶってるか。全然意味がないのに。目が小さいことがわかってるのに。
+Can I top you please Samson?
+How old are you? Are you not supposed to be in school.This shit is beyond you man.
+"feed foward training only, no back propagation"
+Blog article is dead.
+mf is using kaggle
+Phillips Academy?
+"first step : be asian
+second step:profit"
+Yo we have the same name!
+is this ann or cnn ?
+flandre ?
+why the hell im here
+chinese harry potter
+thought ur name was samsung
+you should work out
+Samsung?
+Using numpy is not “from scratch”
+Pog
+asians
+y no c
+nerd
+Hi
+"bruh ML is so booring XD , DEV is so much more fun to do"
+"Hi Samson, I accessed the dataset shown in this video, but I'm getting an error as follows: 
+
+FileNotFoundError                         Traceback (most recent call last)
+/tmp/ipykernel_17/859592122.py in <module>
+      3 from matplotlib import pyplot as plt
+      4 
+----> 5 data = pd.read_csv('/kaggle/input/digit-recognizer/train.csv')
+ 
+/opt/conda/lib/python3.7/site-packages/pandas/util/_decorators.py in wrapper(*args, **kwargs)
+    309                     stacklevel=stacklevel,
+    310                 )
+--> 311             return func(*args, **kwargs)
+    312 
+    313         return wrapper
+
+Please help!"
+"I didn't understand anything but I like it, always did. Nice one bro ."
+" We are building Neurons networks for simple tasks without Tensorflow, wonder why somebody categorized 10 classes can be Thesis.
+ The working is not only Neurons but it is WAV data as repeating and transform you see those famous MFCC OR MFT but another level transforms make the results accepted accurate that is before they cannot build the same accuracy from Neurons Networks but Markov Models.
+
+ The concepts of back propagations and updated training values, I understand to see what he doing with the Flappy birds games that used to be impossible he compacts as set of coefficients as you are working in robots that is why can play with the random function.
+
+temp = tf.random.normal([10], 1, 0.2, tf.float32)
+emp = np.asarray(temp) * np.asarray([ coefficient_0, coefficient_1, coefficient_2, coefficient_3, coefficient_4, coefficient_5, coefficient_6, coefficient_7, coefficient_8, coefficient_9 ]) 
+temp = tf.nn.softmax(temp)
+
+ What are you doing this morning ...  Telling TOTO ( cartoons ) that is simple dense layer as you are building.
+
+class MyDenseLayer(tf.keras.layers.Layer):
+	def __init__(self, num_outputs):
+		super(MyDenseLayer, self).__init__()
+		self.num_outputs = num_outputs
+ 
+	def build(self, input_shape):
+		self.kernel = self.add_weight(""kernel"",
+		shape=[int(input_shape[-1]),
+		self.num_outputs])
+
+	def call(self, inputs):
+		temp = tf.matmul(inputs, self.kernel)		# , shape=(10, 10), dtype=float32)
+ 
+		############################################################################################
+		indices_or_sections = [0]
+		temp2 = [ ]
+		for i in range( temp.shape[0] - 1 ):
+			temp3 = tf.experimental.numpy.split( temp[i + 1], indices_or_sections, axis=0 )[1]
+			temp2.append( temp3 )
+ 
+		temp2.append( tf.experimental.numpy.split( temp[0], indices_or_sections, axis=0 )[1] )
+		temp2 = tf.cast( temp2, dtype=tf.float32 )
+		# temp2 = tf.experimental.numpy.subtract( temp2, temp2 )
+		temp2 = tf.math.abs( temp2, name='distant_matrix' )
+		temp2 = tf.cast( temp2, dtype=tf.float32 )
+		############################################################################################
+
+		temp = tf.math.add( temp, temp2 )
+		return temp
+
+
+️ Tell him to play it with Tensorflow it is easy  NO️  until he installed Keras ...
+️ ...
+
+  Iterations tooo️
+ I posted some code using Gradients and Tapes that update as Iterations training Fn."
+these asian scholars are the reason my parents think am a joke 
+"Bro, I’m so confused. 🫤"
